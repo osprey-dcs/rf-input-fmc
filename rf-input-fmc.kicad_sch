@@ -1,0 +1,394 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1719e569-47c8-4fa0-8523-9c9686ef0dba")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 57.15 76.2)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "156192cf-3256-41cf-9cf3-c1bc456cdae1")
+		(property "Sheetname" "RF_Input_2"
+			(at 57.15 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf_input.kicad_sch"
+			(at 57.15 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLKout3_N" output
+			(at 81.28 81.28 0)
+			(uuid "1d488d2d-aa52-4506-a7fe-be1f4f9d369c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKout3_P" output
+			(at 81.28 78.74 0)
+			(uuid "4c3c21e8-7d96-441e-ad40-1c2fc00fc7d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKout4_N" output
+			(at 81.28 87.63 0)
+			(uuid "df374dd2-bcff-4b27-a120-5f44970c39b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKout4_P" output
+			(at 81.28 85.09 0)
+			(uuid "34d20e5b-e19f-40b6-a9cc-296838590188")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKuWIRE" input
+			(at 81.28 97.79 0)
+			(uuid "ff92b6fe-a971-4149-92b9-d40728f908e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATAuWIRE" bidirectional
+			(at 81.28 100.33 0)
+			(uuid "a3124f98-2175-4bd4-bc65-02de4044d46f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEuWIRE" bidirectional
+			(at 81.28 102.87 0)
+			(uuid "5d11aef4-6d57-44a0-9c1a-2078019fd692")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_Level" output
+			(at 81.28 92.71 0)
+			(uuid "862819ae-d12d-4a5f-bbdf-6f9b67d9cafe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 133.35)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4cafb3fc-40db-4b97-9099-60c0c4fd2349")
+		(property "Sheetname" "Digital_Inputs"
+			(at 58.42 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_inputs.kicad_sch"
+			(at 58.42 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D_Inputs" output
+			(at 82.55 140.97 0)
+			(uuid "9b1327ce-e80e-4921-80ce-d6bc533ec1d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 36.83)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "556a51f6-8ee2-4c5a-bdc7-bf826ed661b3")
+		(property "Sheetname" "RF_Input_1"
+			(at 57.15 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf_input.kicad_sch"
+			(at 57.15 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLKout3_N" output
+			(at 81.28 41.91 0)
+			(uuid "0da4a853-d3b4-4003-a276-23405ef9b9a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKout3_P" output
+			(at 81.28 39.37 0)
+			(uuid "d1bd87bb-ad6b-4f00-8311-591326e9607b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKout4_N" output
+			(at 81.28 48.26 0)
+			(uuid "14740bfc-7892-4800-8d91-a261f52fd589")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKout4_P" output
+			(at 81.28 45.72 0)
+			(uuid "dc833331-5933-44ea-9630-e3f02f243781")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKuWIRE" input
+			(at 81.28 58.42 0)
+			(uuid "561b3660-6fa4-4454-a3e9-648da1e8dcb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATAuWIRE" bidirectional
+			(at 81.28 60.96 0)
+			(uuid "30f05db5-b7ed-42a2-85f4-afa2cdd9a70f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEuWIRE" bidirectional
+			(at 81.28 63.5 0)
+			(uuid "e3cd9234-bdf8-4a11-b811-90316c509ec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_Level" output
+			(at 81.28 53.34 0)
+			(uuid "96d72784-a742-4b4c-b635-4ea6b8d92e24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 76.2)
+		(size 33.02 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ed30b4c-0807-4669-9538-d7b4000cea57")
+		(property "Sheetname" "Housekeeping"
+			(at 105.41 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "housekeeping.kicad_sch"
+			(at 105.41 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 36.83)
+		(size 12.7 124.46)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8aff4400-91ca-4a4b-be62-b9bc642d9108")
+		(property "Sheetname" "FMC"
+			(at 162.56 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fmc.kicad_sch"
+			(at 162.56 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

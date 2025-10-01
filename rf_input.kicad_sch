@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "b8dd0f5f-e652-42b2-89ac-f7909c9d8ff3")
 	(paper "A4")
+	(title_block
+		(title "RF Input FMC Board")
+		(date "2025-10-01")
+		(rev "0.1")
+		(company "Osprey DCS")
+		(comment 1 "Pedro Rodriguez")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
@@ -2635,6 +2642,33 @@
 		(at 245.11 92.71)
 		(uuid "ff5c53bd-c4e8-4437-9051-fddbee3a121f")
 	)
+	(bus_entry
+		(at 176.53 105.41)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10937dd7-0ba2-4cdc-94aa-3360f62060c4")
+	)
+	(bus_entry
+		(at 176.53 102.87)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b159860-663a-49ec-a82d-51c390a6ef7d")
+	)
+	(bus_entry
+		(at 176.53 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832df47e-6ba1-463b-af52-766bdedcce64")
+	)
 	(wire
 		(pts
 			(xy 91.44 86.36) (xy 88.9 86.36)
@@ -2937,7 +2971,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 199.39 102.87)
+			(xy 179.07 102.87) (xy 199.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2967,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 74.93) (xy 104.14 78.74)
+			(xy 104.14 76.2) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3045,6 +3079,16 @@
 		)
 		(uuid "575114b4-e0c7-4d52-840a-d163aa85d340")
 	)
+	(bus
+		(pts
+			(xy 176.53 102.87) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f1ed80-8eb5-4bf8-b278-920f0d411459")
+	)
 	(wire
 		(pts
 			(xy 29.21 105.41) (xy 31.75 105.41)
@@ -3115,6 +3159,16 @@
 		)
 		(uuid "63826102-010c-4766-b4b8-5880b1f43635")
 	)
+	(bus
+		(pts
+			(xy 176.53 100.33) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69501879-1cea-43ac-8ae4-6fbf6fe05865")
+	)
 	(wire
 		(pts
 			(xy 76.2 30.48) (xy 76.2 22.86)
@@ -3147,7 +3201,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 107.95) (xy 199.39 107.95)
+			(xy 179.07 107.95) (xy 199.39 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3297,7 +3351,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 69.85) (xy 104.14 68.58)
+			(xy 104.14 71.12) (xy 104.14 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3525,6 +3579,16 @@
 		)
 		(uuid "b3d292fd-0937-4f90-a0a4-8a8a5a340787")
 	)
+	(bus
+		(pts
+			(xy 168.91 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f65303-1617-4a93-bcaa-1d94b75259d1")
+	)
 	(wire
 		(pts
 			(xy 80.01 123.19) (xy 80.01 110.49)
@@ -3587,7 +3651,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 105.41) (xy 199.39 105.41)
+			(xy 179.07 105.41) (xy 199.39 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3825,6 +3889,16 @@
 		)
 		(uuid "f9a97c84-1c81-40b9-bacc-0ddc2ee8bcaf")
 	)
+	(bus
+		(pts
+			(xy 176.53 105.41) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4f6e8e-cb4c-4cd7-9611-f296810f4594")
+	)
 	(wire
 		(pts
 			(xy 80.01 91.44) (xy 80.01 100.33)
@@ -3875,6 +3949,26 @@
 		)
 		(uuid "254dc575-db47-42ac-ae55-36d4905e0af3")
 	)
+	(label "LEuWire"
+		(at 181.61 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dd36931-3968-4b22-8529-dcf888d95b6e")
+	)
+	(label "CLKuWire"
+		(at 181.61 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "637a4484-9818-42d4-935e-61db7d9f6345")
+	)
 	(label "LMK_VCC_57"
 		(at 109.22 38.1 0)
 		(effects
@@ -3904,6 +3998,16 @@
 			(justify right bottom)
 		)
 		(uuid "920174fa-1000-4091-a860-e1c08f6117aa")
+	)
+	(label "DATAuWire"
+		(at 181.61 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c51e5b4-7320-4b41-badb-084c996b86fa")
 	)
 	(label "LMK_VCC_2468"
 		(at 180.34 57.15 180)
@@ -4090,17 +4194,6 @@
 		)
 		(uuid "0217efd5-7394-4c87-b423-b23a1991242c")
 	)
-	(hierarchical_label "DATAuWIRE"
-		(shape bidirectional)
-		(at 189.23 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0626e341-d9ee-4c6e-9d9f-299e92563e41")
-	)
 	(hierarchical_label "CLKout3_P"
 		(shape output)
 		(at 250.19 67.31 0)
@@ -4123,27 +4216,16 @@
 		)
 		(uuid "5a735344-268b-4a0e-83be-df5c3cf18da8")
 	)
-	(hierarchical_label "LEuWIRE"
-		(shape input)
-		(at 189.23 107.95 180)
+	(hierarchical_label "{RF_CLK_Control}"
+		(shape bidirectional)
+		(at 168.91 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b883e824-7a50-4218-9dd2-7748a1b60453")
-	)
-	(hierarchical_label "CLKuWIRE"
-		(shape input)
-		(at 189.23 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de206612-4dc9-4a84-a9d3-6b79cc92d815")
+		(uuid "b2450bca-6151-4683-8231-8aeb943885db")
 	)
 	(hierarchical_label "CLKout4_P"
 		(shape output)
@@ -6873,7 +6955,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 72.39 180)
+		(at 104.14 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6881,7 +6963,7 @@
 		(dnp no)
 		(uuid "cce5deda-dec3-4caa-9f44-768927be2c9a")
 		(property "Reference" "C6"
-			(at 109.728 71.374 0)
+			(at 109.728 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,7 +6972,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 110.744 73.152 0)
+			(at 110.744 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,7 +6981,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 72.39 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +6990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 72.39 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6917,7 +6999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 72.39 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +7008,7 @@
 			)
 		)
 		(property "MPN" "C1608C0G1E103J080AA "
-			(at 104.14 72.39 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,7 +7017,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 104.14 72.39 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

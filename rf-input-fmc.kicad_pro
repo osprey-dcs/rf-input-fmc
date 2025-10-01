@@ -399,7 +399,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "outputs/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -424,12 +424,20 @@
       "RF_Input_2"
     ],
     [
+      "d098b615-7cba-44eb-be59-7a71f2f48c2b",
+      "ADC"
+    ],
+    [
       "4cafb3fc-40db-4b97-9099-60c0c4fd2349",
       "Digital_Inputs"
     ],
     [
       "7ed30b4c-0807-4669-9538-d7b4000cea57",
-      "Housekeeping"
+      "Level_Shifter"
+    ],
+    [
+      "b67143af-be65-48ce-8e48-a6da90939d69",
+      "EEPROM"
     ],
     [
       "8aff4400-91ca-4a4b-be62-b9bc642d9108",

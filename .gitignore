@@ -1,0 +1,12 @@
+*-backups/
+*-cache
+*.bin
+*.kicad_prl
+*.gbr*
+*.rpt
+*.bak
+*.gbr
+*.zip
+*.lck
+~*
+*.bak

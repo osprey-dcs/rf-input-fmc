@@ -10057,8 +10057,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lmk01801"
+			(at 18.796 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,8 +10066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Dual clock distribution"
+			(at 18.796 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10089,7 +10089,7 @@
 			)
 		)
 		(symbol "LMK_01801_1_1"
-			(pin input line
+			(pin power_in line
 				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "VCC1"
@@ -10107,7 +10107,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -5.08 0)
 				(length 2.54)
 				(name "VCC2"
@@ -10125,7 +10125,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "VCC3"
@@ -10143,7 +10143,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -10.16 0)
 				(length 2.54)
 				(name "VCC4"
@@ -10179,7 +10179,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "VCC5"
@@ -10197,7 +10197,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -17.78 0)
 				(length 2.54)
 				(name "VCC6"
@@ -10215,7 +10215,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -20.32 0)
 				(length 2.54)
 				(name "VCC7"
@@ -10233,7 +10233,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -22.86 0)
 				(length 2.54)
 				(name "VCC8"
@@ -10467,7 +10467,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -2.54 180)
 				(length 2.54)
 				(name "CLKout0"
@@ -10485,7 +10485,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -5.08 180)
 				(length 2.54)
 				(name "CLKout0*"
@@ -10503,7 +10503,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -7.62 180)
 				(length 2.54)
 				(name "CLKout1"
@@ -10521,7 +10521,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -10.16 180)
 				(length 2.54)
 				(name "CLKout1*"
@@ -10539,7 +10539,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -12.7 180)
 				(length 2.54)
 				(name "CLKout2"
@@ -10557,7 +10557,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -15.24 180)
 				(length 2.54)
 				(name "CLKout2*"
@@ -10575,7 +10575,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -17.78 180)
 				(length 2.54)
 				(name "CLKout3"
@@ -10593,7 +10593,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -20.32 180)
 				(length 2.54)
 				(name "CLKout3*"
@@ -10611,7 +10611,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -22.86 180)
 				(length 2.54)
 				(name "CLKout4"
@@ -10629,7 +10629,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -25.4 180)
 				(length 2.54)
 				(name "CLKout4*"
@@ -10647,7 +10647,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -27.94 180)
 				(length 2.54)
 				(name "CLKout5"
@@ -10665,7 +10665,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -30.48 180)
 				(length 2.54)
 				(name "CLKout5*"
@@ -10683,7 +10683,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -33.02 180)
 				(length 2.54)
 				(name "CLKout6"
@@ -10701,7 +10701,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -35.56 180)
 				(length 2.54)
 				(name "CLKout6*"
@@ -10719,7 +10719,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -38.1 180)
 				(length 2.54)
 				(name "CLKout7"
@@ -10737,7 +10737,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -40.64 180)
 				(length 2.54)
 				(name "CLKout7*"
@@ -10755,7 +10755,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -43.18 180)
 				(length 2.54)
 				(name "CLKout8"
@@ -10773,7 +10773,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -45.72 180)
 				(length 2.54)
 				(name "CLKout8*"
@@ -10791,7 +10791,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -48.26 180)
 				(length 2.54)
 				(name "CLKout9"
@@ -10809,7 +10809,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -50.8 180)
 				(length 2.54)
 				(name "CLKout9*"
@@ -10827,7 +10827,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -53.34 180)
 				(length 2.54)
 				(name "CLKout10"
@@ -10845,7 +10845,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -55.88 180)
 				(length 2.54)
 				(name "CLKout10*"
@@ -10863,7 +10863,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -58.42 180)
 				(length 2.54)
 				(name "CLKout11"
@@ -10881,7 +10881,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -60.96 180)
 				(length 2.54)
 				(name "CLKout11*"
@@ -10899,7 +10899,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -63.5 180)
 				(length 2.54)
 				(name "CLKout12"
@@ -10917,7 +10917,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -66.04 180)
 				(length 2.54)
 				(name "CLKout12*"
@@ -10935,7 +10935,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -68.58 180)
 				(length 2.54)
 				(name "CLKout13"
@@ -10953,7 +10953,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 43.18 -71.12 180)
 				(length 2.54)
 				(name "CLKout13*"

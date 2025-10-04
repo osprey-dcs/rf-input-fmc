@@ -606,7 +606,7 @@
 				(justify right)
 			)
 		)
-		(pin "{RF_CLK_Control}" bidirectional
+		(pin "{uW}" bidirectional
 			(at 69.85 86.36 0)
 			(uuid "b2ebd91d-3d92-4b2f-ae56-993683d07842")
 			(effects
@@ -658,7 +658,7 @@
 				(justify left top)
 			)
 		)
-		(pin "{D_Inputs}" output
+		(pin "D[1..8]" output
 			(at 193.04 95.25 0)
 			(uuid "abb8aaba-cfb5-407f-96e2-32d10b515487")
 			(effects
@@ -760,7 +760,7 @@
 				(justify right)
 			)
 		)
-		(pin "{RF_CLK_Control}" bidirectional
+		(pin "{uW}" bidirectional
 			(at 69.85 46.99 0)
 			(uuid "4978f24c-ca41-4ef5-92f4-0a8ca3adcef8")
 			(effects
@@ -852,7 +852,7 @@
 				(justify right)
 			)
 		)
-		(pin "{RF_CLK_Control_1}" bidirectional
+		(pin "uW1{uW}" bidirectional
 			(at 149.86 46.99 180)
 			(uuid "23ce19ba-4342-42ce-8abf-50219eecb5e9")
 			(effects
@@ -862,7 +862,7 @@
 				(justify left)
 			)
 		)
-		(pin "{RF_CLK_Control_2}" bidirectional
+		(pin "uW2{uW}" bidirectional
 			(at 149.86 72.39 180)
 			(uuid "579c3e55-660f-4096-9efc-771466f7299a")
 			(effects
@@ -954,7 +954,7 @@
 				(justify left)
 			)
 		)
-		(pin "{D_Inputs}" input
+		(pin "D[1..8]" input
 			(at 212.09 95.25 180)
 			(uuid "ba242245-cde6-4173-a22d-58c4a646e334")
 			(effects

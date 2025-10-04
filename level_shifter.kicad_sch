@@ -2104,6 +2104,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "uW"
+		(members "CLK" "DATA" "LE")
+	)
 	(text "Set as A(fpga)->B(board)"
 		(exclude_from_sim no)
 		(at 242.57 44.45 0)
@@ -3981,7 +3984,7 @@
 		)
 		(uuid "1a269071-07ff-43fc-849f-8e9964522375")
 	)
-	(label "LEuWire_2"
+	(label "uW2.LE"
 		(at 58.42 43.18 180)
 		(effects
 			(font
@@ -4010,16 +4013,6 @@
 			(justify left bottom)
 		)
 		(uuid "27228f48-425c-40be-aa02-532f8d06dbab")
-	)
-	(label "DATAuWire_2"
-		(at 166.37 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33f288a4-fd9a-40b7-8e92-d3aa6d176623")
 	)
 	(label "FMC_ADC_DOUT"
 		(at 219.71 157.48 0)
@@ -4071,6 +4064,16 @@
 		)
 		(uuid "43d91e53-076b-48fa-8f1a-c2883d3736fa")
 	)
+	(label "uW1.CLK"
+		(at 82.55 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b115609-0f74-478b-a752-5397f73f8bd3")
+	)
 	(label "FMC_ADC_~{CS}"
 		(at 219.71 152.4 0)
 		(effects
@@ -4091,16 +4094,6 @@
 		)
 		(uuid "56b45e19-3954-4676-a18e-c39072bbe4c3")
 	)
-	(label "CLKuWire_2"
-		(at 166.37 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58b9b833-cf7d-488d-ba34-283b70cfd4df")
-	)
 	(label "FMC_CLKuWire_1"
 		(at 219.71 127 0)
 		(effects
@@ -4110,6 +4103,16 @@
 			(justify left bottom)
 		)
 		(uuid "5dae5291-14d0-4efa-9b86-a577b85d7ac9")
+	)
+	(label "uW2.DATA"
+		(at 175.26 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f23a476-4c2e-4470-a9bb-3931763ebddd")
 	)
 	(label "FMC_DATAuWire_1"
 		(at 219.71 129.54 0)
@@ -4151,7 +4154,7 @@
 		)
 		(uuid "72c7d70d-f94e-4e60-90bf-1e77a0d447ff")
 	)
-	(label "CLKuWire_2"
+	(label "uW2.CLK"
 		(at 58.42 38.1 180)
 		(effects
 			(font
@@ -4191,7 +4194,7 @@
 		)
 		(uuid "79ccd3d7-ccbd-4faf-b7f6-40d09c569056")
 	)
-	(label "CLKuWire_1"
+	(label "uW1.CLK"
 		(at 58.42 26.67 180)
 		(effects
 			(font
@@ -4201,7 +4204,7 @@
 		)
 		(uuid "81f3f6af-d5f4-472b-b5e7-4cb8b7529f72")
 	)
-	(label "DATAuWire_2"
+	(label "uW2.DATA"
 		(at 58.42 40.64 180)
 		(effects
 			(font
@@ -4211,15 +4214,15 @@
 		)
 		(uuid "83841138-dc8e-48ad-b298-2beeff58c4fe")
 	)
-	(label "DATAuWire_1"
-		(at 74.93 59.69 0)
+	(label "uW2.CLK"
+		(at 175.26 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "99a6ca0a-53b7-4539-8e5a-a837d4c65ab8")
+		(uuid "911046a0-84ca-42bc-bbdf-55aea149eeda")
 	)
 	(label "ADC_~{CS}"
 		(at 74.93 69.85 0)
@@ -4231,15 +4234,15 @@
 		)
 		(uuid "a0c2e535-2443-4d56-9386-2062b40ea0b6")
 	)
-	(label "LEuWire_1"
-		(at 74.93 64.77 0)
+	(label "uW1.DATA"
+		(at 82.55 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "a9a55cde-378a-4eeb-bc0f-1a285bb13648")
+		(uuid "ab47a076-49cf-429f-a277-fd58e624d6e2")
 	)
 	(label "FMC_DATAuWire_2"
 		(at 243.84 59.69 180)
@@ -4261,26 +4264,6 @@
 		)
 		(uuid "b662e6ef-a211-4870-8fb9-b3ea82475ace")
 	)
-	(label "CLKuWire_1"
-		(at 74.93 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c18a04de-d6a2-45ad-ab82-7b036f141953")
-	)
-	(label "LEuWire_2"
-		(at 166.37 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c28e2f2c-8a9e-45af-8e90-af847f9352c5")
-	)
 	(label "ADC_DIN"
 		(at 58.42 54.61 180)
 		(effects
@@ -4301,7 +4284,17 @@
 		)
 		(uuid "c97f9309-0c0a-44fd-b92b-533eaa6ea118")
 	)
-	(label "DATAuWire_1"
+	(label "uW2.LE"
+		(at 173.99 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cabb6ac8-f816-43ac-aaa8-11dad7a25b30")
+	)
+	(label "uW1.DATA"
 		(at 58.42 29.21 180)
 		(effects
 			(font
@@ -4351,7 +4344,17 @@
 		)
 		(uuid "eb6e050c-1893-421f-ba25-cac9963931d1")
 	)
-	(label "LEuWire_1"
+	(label "uW1.LE"
+		(at 82.55 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3705346-d451-4d4d-85d1-e78884ee9aa6")
+	)
+	(label "uW1.LE"
 		(at 58.42 31.75 180)
 		(effects
 			(font
@@ -4578,7 +4581,7 @@
 		)
 		(uuid "1094fa0f-f96e-42f9-9413-53763b1c3903")
 	)
-	(hierarchical_label "{RF_CLK_Control_2}"
+	(hierarchical_label "uW2{uW}"
 		(shape bidirectional)
 		(at 34.29 34.29 180)
 		(effects
@@ -4611,7 +4614,7 @@
 		)
 		(uuid "acd2e289-8897-47de-b169-1686448a5a84")
 	)
-	(hierarchical_label "{RF_CLK_Control_1}"
+	(hierarchical_label "uW1{uW}"
 		(shape bidirectional)
 		(at 34.29 22.86 180)
 		(effects

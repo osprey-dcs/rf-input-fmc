@@ -3949,7 +3949,7 @@
 		)
 		(uuid "254dc575-db47-42ac-ae55-36d4905e0af3")
 	)
-	(label "LEuWire"
+	(label "LE"
 		(at 181.61 107.95 0)
 		(effects
 			(font
@@ -3959,7 +3959,7 @@
 		)
 		(uuid "4dd36931-3968-4b22-8529-dcf888d95b6e")
 	)
-	(label "CLKuWire"
+	(label "CLK"
 		(at 181.61 105.41 0)
 		(effects
 			(font
@@ -3999,7 +3999,7 @@
 		)
 		(uuid "920174fa-1000-4091-a860-e1c08f6117aa")
 	)
-	(label "DATAuWire"
+	(label "DATA"
 		(at 181.61 102.87 0)
 		(effects
 			(font
@@ -4216,7 +4216,7 @@
 		)
 		(uuid "5a735344-268b-4a0e-83be-df5c3cf18da8")
 	)
-	(hierarchical_label "{RF_CLK_Control}"
+	(hierarchical_label "{uW}"
 		(shape bidirectional)
 		(at 168.91 97.79 180)
 		(effects

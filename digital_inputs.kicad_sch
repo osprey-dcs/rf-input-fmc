@@ -2726,7 +2726,7 @@
 			)
 		)
 	)
-	(hierarchical_label "{D_Inputs}"
+	(hierarchical_label "D[1..8]"
 		(shape output)
 		(at 148.59 48.26 0)
 		(effects

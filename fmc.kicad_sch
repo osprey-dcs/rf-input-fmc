@@ -10388,7 +10388,7 @@
 		)
 		(uuid "8c91f202-72a7-44fb-a6e1-75a9f72cb7a5")
 	)
-	(hierarchical_label "{D_Inputs}"
+	(hierarchical_label "D[1..8]"
 		(shape input)
 		(at 39.37 54.61 180)
 		(effects

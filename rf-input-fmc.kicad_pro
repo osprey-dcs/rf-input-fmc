@@ -424,16 +424,20 @@
       "RF_Input_2"
     ],
     [
+      "e5510460-d5a9-4d09-b8a1-20d3075b72db",
+      "CLK_Distribution"
+    ],
+    [
       "d098b615-7cba-44eb-be59-7a71f2f48c2b",
       "ADC"
     ],
     [
-      "4cafb3fc-40db-4b97-9099-60c0c4fd2349",
-      "Digital_Inputs"
-    ],
-    [
       "7ed30b4c-0807-4669-9538-d7b4000cea57",
       "Level_Shifter"
+    ],
+    [
+      "4cafb3fc-40db-4b97-9099-60c0c4fd2349",
+      "Digital_Inputs"
     ],
     [
       "b67143af-be65-48ce-8e48-a6da90939d69",

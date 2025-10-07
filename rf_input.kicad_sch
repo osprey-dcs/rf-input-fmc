@@ -1517,7 +1517,7 @@
 		(uuid "f880c570-a55e-4bb3-ac2b-0cd14be975cc")
 	)
 	(bus_entry
-		(at 149.86 87.63)
+		(at 152.4 87.63)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1526,7 +1526,7 @@
 		(uuid "16341f8b-d3dd-4cec-9e43-11be74dbc5d6")
 	)
 	(bus_entry
-		(at 149.86 80.01)
+		(at 152.4 80.01)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1543,6 +1543,16 @@
 			(type default)
 		)
 		(uuid "00090d15-fc5f-41ce-97bc-d976f4da912a")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 152.4 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ea0e67-7d64-40e1-8113-4835257f49f8")
 	)
 	(wire
 		(pts
@@ -1583,16 +1593,6 @@
 			(type default)
 		)
 		(uuid "1f4eb37d-2487-4f7d-bc1b-779d7290e384")
-	)
-	(wire
-		(pts
-			(xy 140.97 80.01) (xy 149.86 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27f99b06-8a51-440f-a1dc-b784879bd549")
 	)
 	(wire
 		(pts
@@ -1766,7 +1766,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 77.47) (xy 152.4 85.09)
+			(xy 154.94 77.47) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1876,6 +1876,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 80.01) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba83b35c-4a28-4533-8962-0af6496bb91a")
+	)
+	(wire
+		(pts
 			(xy 96.52 48.26) (xy 107.95 48.26)
 		)
 		(stroke
@@ -1926,16 +1936,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 149.86 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde61e48-ffaa-4f68-9acb-7901cc2c67fd")
-	)
-	(wire
-		(pts
 			(xy 132.08 80.01) (xy 135.89 80.01)
 		)
 		(stroke
@@ -1956,7 +1956,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 77.47) (xy 152.4 77.47)
+			(xy 162.56 77.47) (xy 154.94 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2014,8 +2014,8 @@
 		)
 		(uuid "fb10c88e-10ae-404a-9a85-81ce4030e1d5")
 	)
-	(label "CLK_P"
-		(at 143.51 80.01 0)
+	(label "RF_CLK.P"
+		(at 142.24 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2024,8 +2024,8 @@
 		)
 		(uuid "da47ec0f-a6c4-4f1b-aded-afa6564944eb")
 	)
-	(label "CLK_N"
-		(at 143.51 87.63 0)
+	(label "RF_CLK.N"
+		(at 142.24 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2055,9 +2055,9 @@
 			)
 		)
 	)
-	(hierarchical_label "{RF_CLK}"
+	(hierarchical_label "RF_CLK{DP}"
 		(shape output)
-		(at 160.02 77.47 0)
+		(at 162.56 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2086,7 +2086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06d996dc-89db-4e50-b5c0-dfdf7a8cfa39")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 90.424 21.082 90)
 			(effects
 				(font
@@ -2156,11 +2156,11 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "L7")
+					(reference "L2")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2248,7 +2248,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
@@ -2406,7 +2406,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "#PWR014")
+					(reference "#PWR09")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
@@ -2475,7 +2475,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
@@ -2566,7 +2566,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "C18")
+					(reference "C6")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
@@ -2585,7 +2585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f7120a1-672d-4c2e-a1b4-636b27331148")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 119.38 64.77 0)
 			(effects
 				(font
@@ -2635,11 +2635,11 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "#PWR017")
+					(reference "#PWR010")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2704,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "#PWR013")
+					(reference "#PWR08")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
@@ -2906,7 +2906,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
@@ -3016,7 +3016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7470db2-8274-4ea6-8219-d67cbd3ee2b1")
-		(property "Reference" "C8"
+		(property "Reference" "C5"
 			(at 139.954 84.836 90)
 			(effects
 				(font
@@ -3088,11 +3088,11 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "C25")
+					(reference "C10")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
-					(reference "C8")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3107,7 +3107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cce5deda-dec3-4caa-9f44-768927be2c9a")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 126.238 29.464 0)
 			(effects
 				(font
@@ -3179,11 +3179,11 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "C23")
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3248,7 +3248,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
@@ -3431,7 +3431,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "C19")
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
@@ -3450,7 +3450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea3d2542-6ae9-4755-9f99-159590d79f33")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 139.954 77.216 90)
 			(effects
 				(font
@@ -3522,11 +3522,11 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/156192cf-3256-41cf-9cf3-c1bc456cdae1"
-					(reference "C24")
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/556a51f6-8ee2-4c5a-bdc7-bf826ed661b3"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)

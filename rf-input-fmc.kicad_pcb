@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "RF Input FMC Board")
+		(date "2025-10-01")
+		(rev "0.1")
+		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)

@@ -8,8 +8,8 @@
 		(title "RF Input FMC Board")
 		(date "2025-10-01")
 		(rev "0.1")
-		(company "Osprey DCS")
-		(comment 1 "Pedro Rodriguez")
+		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)
 	(lib_symbols
 		(symbol "74xx:74AHC541"

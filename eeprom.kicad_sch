@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "bbbc0ed2-030e-40a0-95ea-53984ab83d69")
-	(paper "A5")
+	(paper "USLetter")
 	(title_block
 		(title "RF Input FMC Board")
-		(date "2025-10-01")
-		(rev "0.1")
+		(date "2025-10-16")
+		(rev "0.2")
 		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)
@@ -759,76 +759,51 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 34.29 27.94)
-		(end 173.99 93.345)
-		(stroke
-			(width 1.5)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3e1dd447-932b-4db3-808a-0ab5883149fb)
-	)
-	(text "EEPROM"
-		(exclude_from_sim no)
-		(at 36.83 86.995 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c88d4f77-1355-4954-830f-81e117589d1e")
-	)
 	(junction
-		(at 129.54 57.15)
+		(at 167.64 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "134599c7-808e-497c-94b4-b1da3b4231f1")
 	)
 	(junction
-		(at 100.33 39.37)
+		(at 138.43 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "684d5870-e06f-458d-b788-4d5d2bf5c640")
 	)
 	(junction
-		(at 113.03 39.37)
+		(at 151.13 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "784d3e06-b8db-44e9-a100-7ab952eb2057")
 	)
 	(junction
-		(at 129.54 39.37)
+		(at 167.64 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80946c2a-28f3-47ea-9088-115d5762b56b")
 	)
 	(junction
-		(at 113.03 62.23)
+		(at 151.13 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8047380-99a6-4882-bc07-e7424afb04bd")
 	)
 	(junction
-		(at 95.25 39.37)
+		(at 133.35 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3cf9176-0033-422f-8477-9e4e779b34dc")
 	)
 	(junction
-		(at 137.16 59.69)
+		(at 175.26 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd864cc2-251e-46c4-adb6-7403612cc157")
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 90.17 57.15)
+			(xy 107.95 99.06) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -838,7 +813,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 62.23) (xy 90.17 62.23)
+			(xy 124.46 104.14) (xy 128.27 104.14)
 		)
 		(stroke
 			(width 0)
@@ -848,7 +823,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 39.37) (xy 113.03 39.37)
+			(xy 138.43 81.28) (xy 151.13 81.28)
 		)
 		(stroke
 			(width 0)
@@ -858,7 +833,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 59.69) (xy 90.17 59.69)
+			(xy 118.11 101.6) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
@@ -868,7 +843,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 100.33 69.85)
+			(xy 138.43 109.22) (xy 138.43 111.76)
 		)
 		(stroke
 			(width 0)
@@ -878,7 +853,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 59.69) (xy 143.51 59.69)
+			(xy 175.26 101.6) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -888,7 +863,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 62.23) (xy 113.03 66.04)
+			(xy 151.13 104.14) (xy 151.13 107.95)
 		)
 		(stroke
 			(width 0)
@@ -898,7 +873,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 59.69) (xy 137.16 59.69)
+			(xy 148.59 101.6) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -908,7 +883,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 39.37) (xy 129.54 39.37)
+			(xy 151.13 81.28) (xy 167.64 81.28)
 		)
 		(stroke
 			(width 0)
@@ -918,7 +893,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 39.37) (xy 113.03 45.72)
+			(xy 151.13 81.28) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +903,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 57.15) (xy 129.54 57.15)
+			(xy 148.59 99.06) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 54.61) (xy 129.54 57.15)
+			(xy 167.64 96.52) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 49.53) (xy 129.54 39.37)
+			(xy 167.64 91.44) (xy 167.64 81.28)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 50.8) (xy 113.03 62.23)
+			(xy 151.13 92.71) (xy 151.13 104.14)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 48.26) (xy 95.25 46.99)
+			(xy 133.35 90.17) (xy 133.35 88.9)
 		)
 		(stroke
 			(width 0)
@@ -978,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 62.23) (xy 81.28 62.23)
+			(xy 101.6 104.14) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
@@ -988,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 39.37) (xy 95.25 41.91)
+			(xy 133.35 81.28) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
@@ -998,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 39.37) (xy 95.25 39.37)
+			(xy 130.81 81.28) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 68.58) (xy 113.03 68.58)
+			(xy 156.21 110.49) (xy 151.13 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1018,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 62.23) (xy 113.03 62.23)
+			(xy 148.59 104.14) (xy 151.13 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1028,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 52.07) (xy 100.33 39.37)
+			(xy 138.43 93.98) (xy 138.43 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1038,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 39.37) (xy 129.54 39.37)
+			(xy 175.26 81.28) (xy 167.64 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1048,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 49.53) (xy 137.16 39.37)
+			(xy 175.26 91.44) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1058,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 57.15) (xy 143.51 57.15)
+			(xy 167.64 99.06) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1068,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 39.37) (xy 100.33 39.37)
+			(xy 133.35 81.28) (xy 138.43 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 69.85) (xy 113.03 68.58)
+			(xy 151.13 111.76) (xy 151.13 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 59.69) (xy 74.93 59.69)
+			(xy 92.71 101.6) (xy 113.03 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 57.15) (xy 64.77 57.15)
+			(xy 92.71 99.06) (xy 102.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 66.04) (xy 118.11 66.04)
+			(xy 151.13 107.95) (xy 156.21 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 54.61) (xy 137.16 59.69)
+			(xy 175.26 96.52) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1103,7 @@
 	)
 	(global_label "P1_3P3VAUX"
 		(shape input)
-		(at 92.71 39.37 180)
+		(at 130.81 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1138,7 +1113,7 @@
 		)
 		(uuid "348b6a9c-9774-439c-b5a0-26df0110cc75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.9509 39.37 0)
+			(at 116.0509 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1124,7 @@
 	)
 	(global_label "P1_3P3VAUX"
 		(shape input)
-		(at 63.5 62.23 180)
+		(at 101.6 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1159,7 +1134,7 @@
 		)
 		(uuid "aaaba61c-02e3-4718-b880-a9f271aa8f98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.6615 62.23 0)
+			(at 86.7615 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1145,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 143.51 57.15 0)
+		(at 181.61 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1181,7 +1156,7 @@
 	)
 	(hierarchical_label "GA0"
 		(shape input)
-		(at 54.61 59.69 180)
+		(at 92.71 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1192,7 +1167,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 143.51 59.69 0)
+		(at 181.61 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1203,7 +1178,7 @@
 	)
 	(hierarchical_label "GA1"
 		(shape input)
-		(at 54.61 57.15 180)
+		(at 92.71 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1214,15 +1189,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 67.31 57.15 90)
+		(at 105.41 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2647c643-7980-4e60-b3f0-070430cbbf08")
-		(property "Reference" "R8"
-			(at 63.5 55.88 90)
+		(property "Reference" "R6"
+			(at 101.6 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1205,7 @@
 			)
 		)
 		(property "Value" "4.75k"
-			(at 71.12 55.88 90)
+			(at 109.22 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1213,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.31 57.15 0)
+			(at 105.41 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 57.15 0)
+			(at 105.41 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 57.15 0)
+			(at 105.41 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1240,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-074K42L"
-			(at 67.31 57.15 90)
+			(at 105.41 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1249,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 67.31 57.15 0)
+			(at 105.41 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1266,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -1299,15 +1274,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 113.03 48.26 0)
+		(at 151.13 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2dcf90b4-4453-42c9-9eab-dc36ac9ef5bb")
-		(property "Reference" "R11"
-			(at 114.3 46.99 0)
+		(property "Reference" "R9"
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1291,7 @@
 			)
 		)
 		(property "Value" "11.5k"
-			(at 114.3 49.53 0)
+			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +1300,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 113.03 48.26 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +1309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 48.26 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 48.26 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1327,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0711K5L "
-			(at 113.03 48.26 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1336,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 113.03 48.26 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1353,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1386,15 +1361,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 69.85 0)
+		(at 151.13 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "479ff96e-aedb-47ad-9b5e-d50fc96820dc")
-		(property "Reference" "#PWR042"
-			(at 113.03 76.2 0)
+		(property "Reference" "#PWR037"
+			(at 151.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1378,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 73.66 0)
+			(at 151.13 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 69.85 0)
+			(at 151.13 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 69.85 0)
+			(at 151.13 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 69.85 0)
+			(at 151.13 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1418,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "#PWR042")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1451,15 +1426,15 @@
 	)
 	(symbol
 		(lib_id "Memory_EEPROM:AT24CS01-SSHM")
-		(at 100.33 59.69 0)
+		(at 138.43 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "56ef7e27-4c1b-4419-8580-ce6b217b2d59")
-		(property "Reference" "U12"
-			(at 76.2 50.8 0)
+		(property "Reference" "U10"
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1443,7 @@
 			)
 		)
 		(property "Value" "AT24C64D"
-			(at 76.2 53.34 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1452,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 100.33 59.69 0)
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 59.69 0)
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1470,7 @@
 			)
 		)
 		(property "Description" "EEPROM Memory IC 64Kbit I2C 1 MHz 550 ns 8-SOIC"
-			(at 100.33 59.69 0)
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1479,7 @@
 			)
 		)
 		(property "MPN" "AT24C64D-SSHM-T"
-			(at 100.33 59.69 0)
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1488,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 100.33 59.69 0)
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1523,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "U12")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -1556,15 +1531,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 95.25 44.45 0)
+		(at 133.35 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7bca6100-20b4-4356-929f-0c60c2b40be0")
-		(property "Reference" "C32"
-			(at 87.63 43.18 0)
+		(property "Reference" "C33"
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1548,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 88.9 45.72 0)
+			(at 127 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1557,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 95.25 44.45 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 44.45 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +1575,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 95.25 44.45 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1584,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R7BB105"
-			(at 95.25 44.45 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1593,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 95.25 44.45 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +1610,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -1643,15 +1618,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 69.85 0)
+		(at 138.43 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "99eeb42c-1583-4750-a167-19c3ee37449d")
-		(property "Reference" "#PWR041"
-			(at 100.33 76.2 0)
+		(property "Reference" "#PWR036"
+			(at 138.43 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 73.66 0)
+			(at 138.43 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 69.85 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 69.85 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 69.85 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1675,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "#PWR041")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1708,15 +1683,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 129.54 52.07 0)
+		(at 167.64 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a09bc49b-6ce4-457f-ae1d-cd7c5ae83d7b")
-		(property "Reference" "R12"
-			(at 132.715 52.07 0)
+		(property "Reference" "R10"
+			(at 170.815 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1699,7 @@
 			)
 		)
 		(property "Value" "4.75k"
-			(at 133.35 53.975 0)
+			(at 171.45 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1707,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.54 52.07 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 52.07 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 52.07 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1734,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-074K42L"
-			(at 129.54 52.07 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1743,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 129.54 52.07 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1760,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1793,15 +1768,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 83.82 62.23 90)
+		(at 121.92 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a3ea46ca-1ce2-4a47-a32d-218a3643cc46")
-		(property "Reference" "R10"
-			(at 80.01 63.5 90)
+		(property "Reference" "R8"
+			(at 118.11 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1784,7 @@
 			)
 		)
 		(property "Value" "4.75k"
-			(at 87.63 63.5 90)
+			(at 125.73 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1792,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 83.82 62.23 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +1801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 62.23 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 62.23 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1819,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-074K42L"
-			(at 83.82 62.23 90)
+			(at 121.92 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1828,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 83.82 62.23 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1845,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1878,15 +1853,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 77.47 59.69 90)
+		(at 115.57 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a8809a97-464d-4c37-9799-628da01c5441")
-		(property "Reference" "R9"
-			(at 73.66 58.42 90)
+		(property "Reference" "R7"
+			(at 111.76 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +1869,7 @@
 			)
 		)
 		(property "Value" "4.75k"
-			(at 81.28 58.42 90)
+			(at 119.38 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +1877,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 59.69 0)
+			(at 115.57 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +1886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 59.69 0)
+			(at 115.57 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +1895,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 59.69 0)
+			(at 115.57 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +1904,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-074K42L"
-			(at 77.47 59.69 90)
+			(at 115.57 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1913,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 77.47 59.69 0)
+			(at 115.57 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1930,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1963,15 +1938,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 123.19 66.04 0)
+		(at 161.29 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b871f199-8fe4-4174-91b9-3159a5ccd268")
-		(property "Reference" "J5"
-			(at 121.92 63.5 0)
+		(property "Reference" "J4"
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1955,7 @@
 			)
 		)
 		(property "Value" "WP Jumper"
-			(at 118.11 71.12 0)
+			(at 156.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1964,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 123.19 66.04 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 66.04 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +1982,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
-			(at 123.19 66.04 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +1991,7 @@
 			)
 		)
 		(property "MPN" "M20-9990245"
-			(at 123.19 66.04 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2000,7 @@
 			)
 		)
 		(property "Manufacturer" "Harwin Inc."
-			(at 123.19 66.04 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2017,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2050,15 +2025,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 137.16 52.07 0)
+		(at 175.26 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c38ffa56-5285-4573-96b3-8740ad9b31d8")
-		(property "Reference" "R13"
-			(at 140.335 52.07 0)
+		(property "Reference" "R11"
+			(at 178.435 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2041,7 @@
 			)
 		)
 		(property "Value" "4.75k"
-			(at 140.97 53.975 0)
+			(at 179.07 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2049,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 137.16 52.07 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 52.07 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2067,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 52.07 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2076,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-074K42L"
-			(at 137.16 52.07 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2085,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 137.16 52.07 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2102,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2135,15 +2110,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 48.26 0)
+		(at 133.35 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cda24877-f4f7-4b19-8dd8-198840ce86e1")
-		(property "Reference" "#PWR040"
-			(at 95.25 54.61 0)
+		(property "Reference" "#PWR035"
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2127,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 52.07 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 48.26 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 48.26 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +2153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 48.26 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2167,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/b67143af-be65-48ce-8e48-a6da90939d69"
-					(reference "#PWR040")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

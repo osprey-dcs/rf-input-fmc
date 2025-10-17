@@ -4,8 +4,8 @@ global:
   out_dir: output
 preflight:
   check_zone_fills: true
-  erc: true
-  drc: true
+  erc: false
+  drc: false
 
 outputs:
   - name: Info

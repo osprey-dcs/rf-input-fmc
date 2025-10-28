@@ -707,7 +707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 40.64 66.04 0)
 			(effects
 				(font
@@ -717,6 +717,24 @@
 			)
 		)
 		(property "Description" "SAMTEC ISORATE"
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SAMTEC_IP5-02-01-L-S-RA1-L-TR"
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
 			(at 40.64 63.5 0)
 			(effects
 				(font

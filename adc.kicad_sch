@@ -1988,7 +1988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0415e1df-a7a9-4ea0-aeed-04759488ef39")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR018"
 			(at 102.87 109.22 0)
 			(effects
 				(font
@@ -2038,7 +2038,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "#PWR058")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2053,7 +2053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27860afb-db2b-4c2b-ab7d-88f8d88c9c9c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -2103,7 +2103,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2145,7 +2145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 120.65 102.87 0)
 			(effects
 				(font
@@ -2516,7 +2516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 114.3 72.39 0)
 			(effects
 				(font
@@ -2576,7 +2576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "614e3a8d-1a24-4edc-b580-f0722fe1d0a2")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR019"
 			(at 102.87 132.08 0)
 			(effects
 				(font
@@ -2626,7 +2626,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "#PWR059")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2756,7 +2756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 72.39 0)
 			(effects
 				(font
@@ -2843,7 +2843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 120.65 123.19 0)
 			(effects
 				(font
@@ -2903,7 +2903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "884dc2f0-a83e-4b09-8a88-7574d88372a5")
-		(property "Reference" "R18"
+		(property "Reference" "R7"
 			(at 106.172 97.028 0)
 			(effects
 				(font
@@ -2973,7 +2973,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "R18")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3120,6 +3120,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TPS7B92050DBVR"
+			(at 78.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 78.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9acb7582-0df4-41e1-ab8b-4a1585375948")
 		)
@@ -3240,7 +3258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b745f5c5-7c9f-4e2d-abd7-04691050e977")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -3290,7 +3308,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3305,7 +3323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c87d851d-15cc-4b44-a876-a95abda10ac8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 148.59 142.24 0)
 			(effects
 				(font
@@ -3355,7 +3373,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8b42dba-a811-46a5-9835-b4fa0302017f")
-		(property "Reference" "R19"
+		(property "Reference" "R6"
 			(at 96.52 112.268 90)
 			(effects
 				(font
@@ -3440,7 +3458,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "R19")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0342ca5-755b-48ff-a6a3-69dc293cb996")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -3505,7 +3523,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3520,7 +3538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d39137d7-daa5-4ad6-b433-4d34d5dc13af")
-		(property "Reference" "R17"
+		(property "Reference" "R5"
 			(at 96.52 89.408 90)
 			(effects
 				(font
@@ -3590,7 +3608,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "R17")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3605,7 +3623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6c63ce1-5161-491b-b7a6-9ab359acdce8")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -3655,7 +3673,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3670,7 +3688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2b7e221-062c-4b58-bde0-7e84e242f4b9")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 168.91 82.55 0)
 			(effects
 				(font
@@ -3720,7 +3738,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3735,7 +3753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee82ce3c-c466-4586-9802-2400492ea3ca")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -3785,7 +3803,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3838,6 +3856,24 @@
 			)
 		)
 		(property "Description" "12 Bit Analog to Digital Converter 2 Input 2 SAR 16-WQFN"
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ADS7253IRTET"
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 129.54 82.55 0)
 			(effects
 				(font
@@ -3915,7 +3951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f35429e7-d78d-491a-907e-7eddfc9f023e")
-		(property "Reference" "R20"
+		(property "Reference" "R8"
 			(at 106.172 119.888 0)
 			(effects
 				(font
@@ -3985,7 +4021,7 @@
 		(instances
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
-					(reference "R20")
+					(reference "R8")
 					(unit 1)
 				)
 			)

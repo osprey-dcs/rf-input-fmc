@@ -6382,7 +6382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:SAMTEC_IP5-08-01-L-S-RA1-L-TR"
+		(property "Footprint" "rf-input-fmc:SAMTEC_IP5-08-05.0-L-S-1-L-TR"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -6409,7 +6409,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SAMTEC_IP5-08-01-L-S-RA1-L-TR"
+		(property "MPN" "SAMTEC_IP5-08-05.0-L-S-1-L-TR"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -6635,7 +6635,7 @@
 				)
 			)
 		)
-		(property "Value" "Samtec Isorate"
+		(property "Value" "Samtec Isorate Right Angle"
 			(at 44.9696 53.34 0)
 			(effects
 				(font

@@ -1198,12 +1198,6 @@
 		(uuid "eafab5f4-c930-4a37-9f4a-aff64b47b5a3")
 	)
 	(junction
-		(at 92.71 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a0cf5d8-3d6d-4e8f-ac48-97a08d89adaa")
-	)
-	(junction
 		(at 102.87 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1228,10 +1222,16 @@
 		(uuid "9a05d540-c12b-44a9-bded-f4f553ff48a4")
 	)
 	(junction
+		(at 92.71 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24660a6-ff7b-4ba5-b892-cf4c4acefa42")
+	)
+	(junction
 		(at 114.3 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "babb6845-9518-4afb-82a8-8aa908f7c786")
+		(uuid "bae50861-3fcb-417b-8c6f-1a9942bef258")
 	)
 	(junction
 		(at 102.87 114.3)
@@ -1353,6 +1353,16 @@
 			(type default)
 		)
 		(uuid "0cc9d5cb-5174-4bf3-9c36-78481b05f3fb")
+	)
+	(wire
+		(pts
+			(xy 92.71 67.31) (xy 100.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f13244-f84f-4bd0-aa49-4c93787d2f47")
 	)
 	(wire
 		(pts
@@ -1506,6 +1516,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a5f39a-8b4e-4432-bf2a-f846a58fb7f0")
+	)
+	(wire
+		(pts
 			(xy 127 106.68) (xy 120.65 106.68)
 		)
 		(stroke
@@ -1593,16 +1613,6 @@
 			(type default)
 		)
 		(uuid "727d8374-959d-4f65-9259-90f78cd2f2ff")
-	)
-	(wire
-		(pts
-			(xy 92.71 67.31) (xy 114.3 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "760cc621-9e0e-4567-974a-291ca8477a27")
 	)
 	(wire
 		(pts
@@ -4022,6 +4032,91 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 102.87 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa60e9a2-49aa-42a8-a5d4-d5c7958fe437")
+		(property "Reference" "R21"
+			(at 103.124 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 102.87 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-6GEY0R00V"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12fbc6ea-e26f-4316-9c76-bdec3190620c")
+		)
+		(pin "2"
+			(uuid "40796bfc-fb3b-42f6-968b-bf9f2111f786")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
+					(reference "R21")
 					(unit 1)
 				)
 			)

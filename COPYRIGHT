@@ -5,3 +5,7 @@ Source: https://github.com/osprey-dcs/rf-input-fmc
 Files: *
 Copyright: 2025 Osprey DCS LLC
 License: CERN-OHL-S-2.0+
+
+Files: libs/3D/*
+Copyright: CADENAS
+License: License CC BY-ND 4.0

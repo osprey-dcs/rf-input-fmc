@@ -1,5 +1,4 @@
 # Osprey RF Input FMC Board Design
-
 ## RF Input section
 
 - U1 - Splits RF Input for level monitoring
@@ -13,16 +12,16 @@ Internal Distribution [image](https://www.ti.com/ds_dgm/images/fbd_snas573d.gif)
 Power Supply Pins
 
 
-| Pin | Pin Name | Description |
-|:---|:--------------------|:-----------------------------------------------|
-|  6 | Vcc1_CLKout 0_1_2_3 | Power supply for clock outputs 0, 1, 2, and 3  |
-| 15 | Vcc2_CLKin0         | Power supply for clock input 0                 |
-| 20 | Vcc3_CLKout 4_5_6_7 | Power supply for clock outputs 4, 5, 6, and 7  |
-| 25 | Vcc4_Bias           | Power supply for Bias                          |
-| 32 | Vcc5_CLKout8_9_10_1 | Power supply for clock outputs 8, 9, 10, and 11|
-| 37 | Vcc6_CLKin1         | Power supply for clock input 1                 |
-| 41 | Vcc7_CLKout 12_13   | Power supply for clock outputs 12, and 13      |
-| 46 | Vcc8_DIG            | Power supply for digital                       |
+| Pin | Pin Name            | Description                                     |
+| :-- | :------------------ | :---------------------------------------------- |
+| 6   | Vcc1_CLKout 0_1_2_3 | Power supply for clock outputs 0, 1, 2, and 3   |
+| 15  | Vcc2_CLKin0         | Power supply for clock input 0                  |
+| 20  | Vcc3_CLKout 4_5_6_7 | Power supply for clock outputs 4, 5, 6, and 7   |
+| 25  | Vcc4_Bias           | Power supply for Bias                           |
+| 32  | Vcc5_CLKout8_9_10_1 | Power supply for clock outputs 8, 9, 10, and 11 |
+| 37  | Vcc6_CLKin1         | Power supply for clock input 1                  |
+| 41  | Vcc7_CLKout 12_13   | Power supply for clock outputs 12, and 13       |
+| 46  | Vcc8_DIG            | Power supply for digital                        |
 
 Zest Grouped the rails as follows:
 
@@ -79,10 +78,6 @@ I chose a simple SPI Dual input ADC for this Role.
 We want something with few external parts and that can run it's digital IO at 2.5V to avoid level shifters
 
 Currently in the design I have the ADS7253. This is a 12 bit ADC that is pin compatible with a 14&16bit version. While I think 12 bits is enough for the intended use, have a drop-in replacement with high resolution may be nice for particular community applications.
-
-### ~~MCP3202~~ [datasheet](https://www.ti.com/lit/ds/symlink/ads7253.pdf)
-This ADC has an internal reference its power supply as an external reference.
-This IC also draws a max of only 550uA while operating.
 
 ### TI Products that meet these requirements
 | Product or Part number                              | Resolution (Bits) | PDF data sheet                                          | Sample rate (max) (ksps) | Number of input channels | Interface type | Architecture | Input type                       | Multichannel configuration | Rating     | Price\|Quantity (USD) | TI functional safety category | Reference mode    | Package type | Features                   | Power consumption (typ) (mW) | Analog supply voltage (min) (V) | Analog supply voltage (max) (V) | Digital supply (min) (V) | Digital supply (max) (V) |
@@ -177,11 +172,46 @@ We found the SN74LV6T17-EP has poor speed, so I looked  for another part in TIs 
 
 The last entry was used in the design but has poor propagation delay. A new part is needed.
 
-I found the 16bit SN74LVC16244A-EP part is a good fit with a sub 5ns propagation delay.
+#### TI noninverting buffers & drivers
 
-## ~~Level Shifter~~
-This has now been removed
-This uses the same parts from Zest
+I sorted by chips with: 8 or 16 inputs, over-voltage capable inputs, fast switching speed, and Vcc of 2.5V. 
+- **AUC** Family -Very Fast (<2ns) at 2.5V, but max tolerant IO is 3.6V
+	- SN74AUC16244
+	- SN74AUC244
+	- SN74AUCH16244
+	- SN74AUCH244
+	- SN74AVC16244
+- **AVC** Family -Very Fast (<2ns)  at 2.5V, but max tolerant IO is 4.7V
+	- SN74AVC16244
+- **AHC** Family -  switch speeds in the 10-12ns region; 7V input tolerant
+	- SN74AHC244
+	- SN74AHC244-Q
+	- SN74AHC244-Q1
+	- SN74AHC541
+	- SN74AHC541-Q1
+- **ALVC** Family - Very Fast (<4ns)  at 2.5V, but max tolerant IO is 4.6V
+	- SN74ALVC16244A
+	- SN74ALVC244
+	- SN74ALVCH162244
+	- SN74ALVCH16244
+	- SN74ALVCH162344
+	- SN74ALVCH244
+- **LV-A** Family - too slow (>12ns)  at 2.5V Vcc; inputs tolerant to 7V
+propagation delays seemed to be optimized around 5V Vcc in this family.
+	- SN74LV244A
+	- SN74LV244A-Q1
+	- SN74LV244A-EP
+	- SN74LV541A
+	- SN74LV541A-Q1
+- **LVC** Family -Very Fast (<6ns)  at 2.5V, max tolerant IO is 6.5V
+	- SN74LVC16244A | 3.9ns propagation delay @ 2.5V
+	- SN74LVC16244A-Q1  | 5.9ns propagation delay @ 2.5V
+	- SN74LVC16244A-EP  | 3.9ns propagation delay @ 2.5V
+	- SN74LVC162244A  | 4.3ns propagation delay @ 2.5V
+
+
+I found the 16bit SN74LVC16244A-EP part is a good fit with a sub 5ns propagation delay.
+Part availability is low for the 'EP' part, so maybe we use the SN74LVC16244A.
 
 ## EEPROM
 This uses the same setup and Quartz

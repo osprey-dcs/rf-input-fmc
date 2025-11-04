@@ -12,7 +12,7 @@
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial_x2"
+		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,14 +21,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.715 0)
+				(at 0.254 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_Coaxial_x2"
+			(property "Value" "Conn_Coaxial"
 				(at 2.921 0 90)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -46,15 +46,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,22 +72,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_Coaxial_x2_0_1"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.508 -2.54)
+						(xy -2.54 0) (xy -0.508 0)
 					)
 					(stroke
 						(width 0)
@@ -107,9 +95,9 @@
 					)
 				)
 				(arc
-					(start 1.778 2.54)
-					(mid 0.222 0.7321)
-					(end -1.778 2.032)
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -119,33 +107,9 @@
 					)
 				)
 				(arc
-					(start 1.778 -2.54)
-					(mid 0.222 -4.3479)
-					(end -1.778 -3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 3.048)
-					(mid 0.2221 4.3484)
-					(end 1.778 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 -2.032)
-					(mid 0.2221 -0.7316)
-					(end 1.778 -2.54)
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -155,7 +119,7 @@
 					)
 				)
 				(circle
-					(center 0 2.54)
+					(center 0 0)
 					(radius 0.508)
 					(stroke
 						(width 0.2032)
@@ -167,30 +131,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 0 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.318)
+						(xy 0 -2.54) (xy 0 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -201,11 +142,11 @@
 					)
 				)
 			)
-			(symbol "Conn_Coaxial_x2_1_1"
+			(symbol "Conn_Coaxial_1_1"
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "IN1"
+					(name "In"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -221,9 +162,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "IN2"
+					(name "Ext"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -231,24 +172,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "EXT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -363,13 +286,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 71.12) (xy 40.64 73.66)
+			(xy 50.8 90.17) (xy 50.8 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "027647f4-4a26-4246-92b7-e028b1678be8")
+	)
+	(wire
+		(pts
+			(xy 54.61 45.72) (xy 62.23 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05edca41-ff03-4d33-98bf-bec76fc1476b")
 	)
 	(wire
 		(pts
@@ -401,16 +334,6 @@
 		)
 		(uuid "1ec1bfe9-12c7-44e0-b1f6-d72af128672f")
 	)
-	(wire
-		(pts
-			(xy 45.72 60.96) (xy 53.34 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23aeefb7-e432-4a4c-814f-d6da6b02cf0a")
-	)
 	(bus
 		(pts
 			(xy 96.52 87.63) (xy 127 87.63)
@@ -420,16 +343,6 @@
 			(type default)
 		)
 		(uuid "2dbe3c67-83a9-47d3-bf73-cdc11aac3421")
-	)
-	(wire
-		(pts
-			(xy 53.34 45.72) (xy 62.23 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec3d3ac-ea77-4c2b-b0af-2fb3a325d20e")
 	)
 	(bus
 		(pts
@@ -443,17 +356,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 85.09) (xy 62.23 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "397288e7-e3a0-4035-bdc6-2fbc45607581")
-	)
-	(wire
-		(pts
-			(xy 45.72 66.04) (xy 53.34 66.04)
+			(xy 55.88 85.09) (xy 62.23 85.09)
 		)
 		(stroke
 			(width 0)
@@ -470,6 +373,16 @@
 			(type default)
 		)
 		(uuid "4d438bdb-29e6-45e6-ad56-2c69bdb8e8ad")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 49.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54835595-a7fc-4034-8684-0f2d1b916d35")
 	)
 	(wire
 		(pts
@@ -540,26 +453,6 @@
 			(type default)
 		)
 		(uuid "81593c87-b890-4171-9bcc-e29c3db02a32")
-	)
-	(wire
-		(pts
-			(xy 53.34 60.96) (xy 53.34 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d90db87-df38-4f32-8f92-d69c58d39466")
-	)
-	(wire
-		(pts
-			(xy 53.34 66.04) (xy 53.34 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b900efc-030e-4c69-a954-f270c4a3ba12")
 	)
 	(bus
 		(pts
@@ -672,107 +565,17 @@
 		(uuid "f2cb9225-59a7-4f53-b51e-367459dde0a5")
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_x2")
-		(at 40.64 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46cc23b6-433c-4f85-8efe-aca769cc329c")
-		(property "Reference" "J1"
-			(at 40.9574 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ISORATE"
-			(at 40.9574 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rf-input-fmc:SAMTEC_IP5-02-01-L-S-RA1-L-TR"
-			(at 40.64 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SAMTEC ISORATE"
-			(at 40.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SAMTEC_IP5-02-01-L-S-RA1-L-TR"
-			(at 40.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 40.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "81a2f00b-573b-40f1-a1aa-6542a3052b35")
-		)
-		(pin "2"
-			(uuid "9abab1a0-b88f-43b8-bf5e-655be8ac5c55")
-		)
-		(pin "1"
-			(uuid "980d0208-9fa4-430e-98dd-b9f46fb8ab4c")
-		)
-		(instances
-			(project ""
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 40.64 73.66 0)
+		(at 49.53 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85cad87e-4d6c-4d03-ac9f-f2a01b5cee85")
-		(property "Reference" "#PWR01"
-			(at 40.64 80.01 0)
+		(uuid "59fe11ae-7924-4e30-b48c-dd925ad9a802")
+		(property "Reference" "#PWR058"
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 78.74 0)
+			(at 49.53 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -789,7 +592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 73.66 0)
+			(at 49.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 73.66 0)
+			(at 49.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +610,160 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 73.66 0)
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1abcce0a-42e9-455c-b50c-1b239f219248")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 50.8 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "679fe98f-12c2-4bec-b372-7a4c870072e1")
+		(property "Reference" "J2"
+			(at 51.1174 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 51.1174 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec6dca42-194f-4673-8d4c-13c96cca36a0")
+		)
+		(pin "1"
+			(uuid "4e095ab5-f63f-45f5-8077-491fcb3e8edd")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85cad87e-4d6c-4d03-ac9f-f2a01b5cee85")
+		(property "Reference" "#PWR01"
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,6 +778,93 @@
 			(project ""
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 49.53 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fb1a783-6d2c-4ff9-bac6-5d1d1b4b2869")
+		(property "Reference" "J1"
+			(at 49.8474 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 49.8474 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9da1010a-5e33-4aa9-bb6f-1889b4f59219")
+		)
+		(pin "1"
+			(uuid "fb77aa99-1c49-411d-bdc9-59ba9b5e5fa5")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(reference "J1")
 					(unit 1)
 				)
 			)

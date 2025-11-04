@@ -10,7 +10,7 @@
 | connector type           | Samtec Isorate IP5-02-01-L-S-RA1-L-TR |
 | Targeted Input Bandwidth | 50MHz- 200Mhz                         |
 | Absolute Input Bandwidth | 50MHz- 3000Mhz                        |
-| Input Range              | -5 to +25 dBm                         |
+| Input Range              | -5 to +20 dBm                         |
 | Absolute Input Range     | -5.8dbm - 25.9 dBm                    |
 | Clock Divider            | 1x - (1/8)x                           |
 | Input Impedance          | 50 ohm +/- 0.5%                       |

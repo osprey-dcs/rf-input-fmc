@@ -12,6 +12,176 @@
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2434,6 +2604,16 @@
 		)
 		(uuid "433781b3-5d41-44d9-a123-13887c88b3de")
 	)
+	(wire
+		(pts
+			(xy 219.71 91.44) (xy 219.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4573ea8a-bd11-4161-a0da-c8b34623be69")
+	)
 	(bus
 		(pts
 			(xy 86.36 106.68) (xy 91.44 106.68)
@@ -2563,6 +2743,16 @@
 			(type default)
 		)
 		(uuid "56474266-cfcc-44e4-9b52-d5f90dbc3924")
+	)
+	(wire
+		(pts
+			(xy 219.71 130.81) (xy 219.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56dd41e5-1cfe-4da7-8a50-e00c6ab8fc46")
 	)
 	(wire
 		(pts
@@ -2893,6 +3083,26 @@
 			(type default)
 		)
 		(uuid "baaf0f83-ff14-44da-9664-0af2555392df")
+	)
+	(wire
+		(pts
+			(xy 219.71 111.76) (xy 219.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab338f6-8f78-450b-8a0c-9815f4691c74")
+	)
+	(wire
+		(pts
+			(xy 219.71 149.86) (xy 219.71 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2be355-9074-4fc8-8feb-b2ad757da65b")
 	)
 	(wire
 		(pts
@@ -3737,7 +3947,7 @@
 		(at 251.46 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0586008d-7e9f-4eb3-b259-3921bd2e8590")
@@ -3780,6 +3990,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +4072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1UF 25V X7R 0603"
 			(at 111.76 88.9 0)
 			(effects
 				(font
@@ -3853,7 +4081,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61E105KA12D"
+		(property "MPN" "GCM188R71E105KA64D"
 			(at 111.76 88.9 0)
 			(effects
 				(font
@@ -3862,8 +4090,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 111.76 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-10673-1-ND"
+			(at 111.76 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,6 +4127,71 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a01edaf-8fec-4906-938c-b0efd877e448")
+		(property "Reference" "#PWR064"
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec874dbd-c2ae-4e7e-8ab2-1827bd42bc03")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3994,7 +4305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core, small symbol"
+		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
 			(at 125.73 31.75 0)
 			(effects
 				(font
@@ -4014,6 +4325,24 @@
 		)
 		(property "Manufacturer" "Murata "
 			(at 125.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 125.73 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-1011-1-ND"
+			(at 125.73 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4370,7 @@
 		(at 251.46 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "16a54f8d-08a7-43db-9af1-e4fef48042c9")
@@ -4084,6 +4413,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 35V X5R 0603"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -4157,7 +4504,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X5R1A106M080AC"
+		(property "MPN" "GRM188R6YA106MA73D"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -4166,7 +4513,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata Electronics"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-13248-1-ND"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -4195,7 +4560,7 @@
 		(at 251.46 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1bf68b73-3d2b-47cc-9979-5f4ea6a83ad0")
@@ -4238,6 +4603,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 74.93 95.25 0)
 			(effects
 				(font
@@ -4311,7 +4694,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01D "
+		(property "MPN" "GCM155R71H104KE02J"
 			(at 74.93 95.25 90)
 			(effects
 				(font
@@ -4320,8 +4703,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-14514-1-ND"
+			(at 74.93 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,6 +4740,71 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30a7a342-8b6d-40a6-9f65-1e9dde299c92")
+		(property "Reference" "#PWR067"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6a4890c-c014-4fba-ab4d-564bf3281b22")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 74.93 99.06 0)
 			(effects
 				(font
@@ -4398,7 +4864,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01D "
+		(property "MPN" "GCM155R71H104KE02J"
 			(at 74.93 99.06 90)
 			(effects
 				(font
@@ -4407,8 +4873,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-14514-1-ND"
+			(at 74.93 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core, small symbol"
+		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
 			(at 125.73 46.99 0)
 			(effects
 				(font
@@ -4494,6 +4978,24 @@
 		)
 		(property "Manufacturer" "Murata "
 			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 125.73 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-1011-1-ND"
+			(at 125.73 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +5023,7 @@
 		(at 251.46 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5df4a89d-b47a-4b8a-876a-0296913d2ddd")
@@ -4571,6 +5073,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" ""
+			(at 251.46 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04e379c5-9ed8-4065-a59e-63c8ba6791a1")
 		)
@@ -4578,6 +5098,109 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 219.71 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63c02b10-5b35-4fd0-9ec3-f38bcc9cdfbf")
+		(property "Reference" "J21"
+			(at 219.3926 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 219.3926 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM10617-ND"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e141e3ad-b6d6-4eb5-9ef4-2ae963fae0fd")
+		)
+		(pin "1"
+			(uuid "f63168e3-bd8c-407c-bac7-41dc84a33df3")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -4717,6 +5340,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 219.71 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "769ce53c-48a7-4847-8f81-e8835d4717f5")
+		(property "Reference" "J22"
+			(at 219.3926 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 219.3926 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM10617-ND"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fff63262-fbef-475a-8537-00ea959a31ae")
+		)
+		(pin "1"
+			(uuid "b6588ce9-8948-4d7d-9c11-eb5b1932ab56")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 74.93 76.2 270)
 		(unit 1)
@@ -4761,7 +5487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 74.93 76.2 0)
 			(effects
 				(font
@@ -4770,7 +5496,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01D "
+		(property "MPN" "GCM155R71H104KE02J"
 			(at 74.93 76.2 90)
 			(effects
 				(font
@@ -4779,8 +5505,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-14514-1-ND"
+			(at 74.93 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +5552,7 @@
 		(at 251.46 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7b5ca2bf-8bda-4212-a5c5-1d0936f61795")
@@ -4851,6 +5595,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 74.93 80.01 0)
 			(effects
 				(font
@@ -4924,7 +5686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01D "
+		(property "MPN" "GCM155R71H104KE02J"
 			(at 74.93 80.01 90)
 			(effects
 				(font
@@ -4933,8 +5695,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-14514-1-ND"
+			(at 74.93 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,6 +5732,109 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 219.71 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8697a8dc-f831-4818-a960-66e4831d4791")
+		(property "Reference" "J20"
+			(at 219.3926 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 219.3926 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM10617-ND"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efb57d3c-47df-472f-adc0-f0188cd5b337")
+		)
+		(pin "1"
+			(uuid "2d6b4a89-118c-4cc3-9daf-fc649e8f20b7")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -5023,6 +5906,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9557026d-feb3-4f27-bb44-4e356a944778")
+		(property "Reference" "#PWR065"
+			(at 219.71 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddf2a13c-72bf-4b77-917b-cf0a9381100b")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rf-input-fmc:LMK_01801")
 		(at 119.38 76.2 0)
 		(unit 1)
@@ -5047,7 +5995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:Texas_RGZ0048A_VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -5065,7 +6013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual clock distribution"
+		(property "Description" "IC CLK BUF 1:8/1:6 3.1GHZ 48WQFN"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -5084,6 +6032,24 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
+			(at 119.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 119.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "296-40276-1-ND"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -5293,7 +6259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 74.93 87.63 0)
 			(effects
 				(font
@@ -5302,7 +6268,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01D "
+		(property "MPN" "GCM155R71H104KE02J"
 			(at 74.93 87.63 90)
 			(effects
 				(font
@@ -5311,8 +6277,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 74.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-14514-1-ND"
+			(at 74.93 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +6364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 35V X5R 0603"
 			(at 129.54 52.07 0)
 			(effects
 				(font
@@ -5389,7 +6373,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X5R1A106M080AC"
+		(property "MPN" "GRM188R6YA106MA73D"
 			(at 129.54 52.07 0)
 			(effects
 				(font
@@ -5398,7 +6382,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata Electronics"
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-13248-1-ND"
 			(at 129.54 52.07 0)
 			(effects
 				(font
@@ -5427,7 +6429,7 @@
 		(at 251.46 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9c314c70-fab9-47cd-bb02-47d22f338515")
@@ -5477,6 +6479,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" ""
+			(at 251.46 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71f7ff1b-4f76-4f5a-b8a9-9881245273c0")
 		)
@@ -5494,7 +6514,7 @@
 		(at 251.46 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a5a1a8f6-11cd-47ea-87be-219f4160d51f")
@@ -5537,6 +6557,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +6639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 74.93 91.44 0)
 			(effects
 				(font
@@ -5610,7 +6648,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01D "
+		(property "MPN" "GCM155R71H104KE02J"
 			(at 74.93 91.44 90)
 			(effects
 				(font
@@ -5619,8 +6657,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-14514-1-ND"
+			(at 74.93 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +6704,7 @@
 		(at 251.46 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a9b95802-e01a-4e46-b429-30b141c4c13b")
@@ -5698,6 +6754,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" ""
+			(at 251.46 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fc32ef8-4b54-479f-bb91-48602d31cfd5")
 		)
@@ -5715,7 +6789,7 @@
 		(at 251.46 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ab831f11-b420-45d3-83a5-4ff223714464")
@@ -5758,6 +6832,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +6942,7 @@
 		(at 251.46 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "aed25af0-452e-4494-beb6-1b819af1aa50")
@@ -5893,6 +6985,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +7130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core, small symbol"
+		(property "Description" "FERRITE BEAD 600 OHM 0805 1LN"
 			(at 113.03 39.37 0)
 			(effects
 				(font
@@ -6047,6 +7157,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Digikey"
+			(at 113.03 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "732-1620-1-ND"
+			(at 113.03 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "94eccb20-414a-4658-8dfd-91e8d98fc929")
 		)
@@ -6057,6 +7185,109 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 219.71 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3947174-22b8-4eab-9ff0-4aeaa8e9914e")
+		(property "Reference" "J23"
+			(at 219.3926 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 219.3926 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM10617-ND"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f06a15d-3775-4147-9f30-b0b1f8c61b59")
+		)
+		(pin "1"
+			(uuid "c3ef9c8a-bc88-43e0-b186-df3f9af92494")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -6107,7 +7338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 74.93 72.39 0)
 			(effects
 				(font
@@ -6116,7 +7347,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01D "
+		(property "MPN" "GCM155R71H104KE02J"
 			(at 74.93 72.39 90)
 			(effects
 				(font
@@ -6125,8 +7356,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-14514-1-ND"
+			(at 74.93 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +7536,7 @@
 		(at 251.46 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d9e6aad7-78d5-4f07-b885-6675c75a614d")
@@ -6330,6 +7579,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +7661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -6403,7 +7670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01D "
+		(property "MPN" "GCM155R71H104KE02J"
 			(at 74.93 83.82 90)
 			(effects
 				(font
@@ -6412,8 +7679,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-14514-1-ND"
+			(at 74.93 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +7766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 35V X5R 0603"
 			(at 138.43 52.07 0)
 			(effects
 				(font
@@ -6490,7 +7775,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X5R1A106M080AC"
+		(property "MPN" "GRM188R6YA106MA73D"
 			(at 138.43 52.07 0)
 			(effects
 				(font
@@ -6499,7 +7784,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata Electronics"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-13248-1-ND"
 			(at 138.43 52.07 0)
 			(effects
 				(font
@@ -6528,7 +7831,7 @@
 		(at 251.46 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e9bd8be1-54cd-47d6-b20c-584b1e0142c5")
@@ -6578,6 +7881,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" ""
+			(at 251.46 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c3024a0-d4c4-4864-acf3-ca4becfb121f")
 		)
@@ -6591,11 +7912,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebea1ae4-5f8b-4545-a014-8af2db850a4f")
+		(property "Reference" "#PWR066"
+			(at 219.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b308df84-8fd9-4762-95d3-67d6671db740")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 251.46 17.78 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "eecd1560-4c2a-46d4-a1c8-b00922a3c5ec")
@@ -6638,6 +8024,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +8104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core, small symbol"
+		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
 			(at 125.73 39.37 0)
 			(effects
 				(font
@@ -6720,6 +8124,24 @@
 		)
 		(property "Manufacturer" "Murata "
 			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 125.73 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-1011-1-ND"
+			(at 125.73 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +8169,7 @@
 		(at 251.46 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fcd3f2db-2580-4b3c-ba6b-51e7c2189cf5")
@@ -6797,6 +8219,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" ""
+			(at 251.46 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "313ffe5e-e009-4a05-b45a-cbf4e5141569")
 		)
@@ -6814,7 +8254,7 @@
 		(at 251.46 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fd8380b5-f1e8-427b-aab8-f973ec18f40e")
@@ -6857,6 +8297,24 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +8379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 35V X5R 0603"
 			(at 119.38 52.07 0)
 			(effects
 				(font
@@ -6930,7 +8388,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X5R1A106M080AC"
+		(property "MPN" "GRM188R6YA106MA73D"
 			(at 119.38 52.07 0)
 			(effects
 				(font
@@ -6939,7 +8397,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata Electronics"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-13248-1-ND"
 			(at 119.38 52.07 0)
 			(effects
 				(font

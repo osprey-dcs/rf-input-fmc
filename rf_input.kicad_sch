@@ -1053,14 +1053,14 @@
 				(pin no_connect line
 					(at 20.32 -7.62 180)
 					(length 2.54)
-					(name "OUT2"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "NC"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1997,7 +1997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core, small symbol"
+		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -2017,6 +2017,24 @@
 		)
 		(property "Manufacturer" "Murata "
 			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 139.7 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-1011-1-ND"
+			(at 139.7 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power splitter combiner, 5 to 1000 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits DB1627"
+		(property "Description" "RF PWR DVDR 50MHZ-3GHZ 6SMD"
 			(at 91.44 90.17 0)
 			(effects
 				(font
@@ -2105,6 +2123,24 @@
 			)
 		)
 		(property "Manufacturer" "MiniCircuits"
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "3157-TCP-2-33W+CT-ND"
 			(at 91.44 90.17 0)
 			(effects
 				(font
@@ -2187,7 +2223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 475 OHM 1% 1/10W 0603"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -2206,6 +2242,24 @@
 			)
 		)
 		(property "Manufacturer" "Yageo "
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "311-475HRCT-ND"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -2416,7 +2470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1000PF 50V C0G/NP0 0603"
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -2434,8 +2488,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 80.01 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-1451-1-ND"
+			(at 80.01 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1:2 CORE & WIRE TRANSFORMER, 10"
 			(at 132.08 111.76 0)
 			(effects
 				(font
@@ -2670,7 +2742,25 @@
 				(hide yes)
 			)
 		)
-		(pin "NC"
+		(property "Supplier" "Digikey"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "3157-TCM2-43X+CT-ND"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
 			(uuid "786850be-7a0a-43ac-94e4-548f55e50061")
 		)
 		(pin "6"
@@ -2735,7 +2825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adl5501.pdf"
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -2744,7 +2834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF DETECT 50MHZ-6GHZ SC70-6"
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -2763,6 +2853,24 @@
 			)
 		)
 		(property "Manufacturer" "Analog Devices"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "505-ADL5501AKSZ-R7CT-ND"
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -2916,7 +3024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 100 OHM 0.5% 1/16W 0603"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -2925,7 +3033,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL"
+		(property "MPN" "RR0816P-101-D"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -2934,7 +3042,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Susumu"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RR08P100DCT-ND"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -3007,7 +3133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1000PF 50V C0G/NP0 0603"
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -3025,8 +3151,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 167.64 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-1451-1-ND"
+			(at 167.64 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 168.91 66.04 0)
 			(effects
 				(font
@@ -3098,7 +3242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10000PF 35V C0G/NP0 0402"
 			(at 168.91 66.04 0)
 			(effects
 				(font
@@ -3107,7 +3251,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608C0G1E103J080AA "
+		(property "MPN" "GRM1555CYA103GE01D"
 			(at 168.91 66.04 0)
 			(effects
 				(font
@@ -3116,7 +3260,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata Electronics"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-GRM1555CYA103GE01DCT-ND"
 			(at 168.91 66.04 0)
 			(effects
 				(font
@@ -3216,6 +3378,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Digikey"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-2031-1-ND"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63904e91-cc5e-46c2-b5ea-b7c07d4da8f0")
 		)
@@ -3262,7 +3442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.78 67.31 0)
 			(effects
 				(font
@@ -3280,7 +3460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10000PF 35V C0G/NP0 0402"
 			(at 144.78 67.31 0)
 			(effects
 				(font
@@ -3289,7 +3469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608C0G1E103J080AA "
+		(property "MPN" "GRM1555CYA103GE01D"
 			(at 144.78 67.31 0)
 			(effects
 				(font
@@ -3298,7 +3478,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata Electronics"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-GRM1555CYA103GE01DCT-ND"
 			(at 144.78 67.31 0)
 			(effects
 				(font
@@ -3371,7 +3569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1000PF 50V C0G/NP0 0603"
 			(at 167.64 115.57 0)
 			(effects
 				(font
@@ -3389,8 +3587,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 167.64 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-1451-1-ND"
+			(at 167.64 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,6 +3696,24 @@
 		)
 		(property "Manufacturer" "Vishay Dale"
 			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 137.16 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-2009-1-ND"
+			(at 137.16 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)

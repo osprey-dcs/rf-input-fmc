@@ -23396,8 +23396,8 @@
 		(uuid b62c8860-e07f-452a-8986-69ad7fe77951)
 	)
 	(rectangle
-		(start 317.5 147.955)
-		(end 416.56 232.41)
+		(start 312.42 147.955)
+		(end 414.02 232.41)
 		(stroke
 			(width 1.5)
 			(type default)
@@ -23653,7 +23653,7 @@
 	)
 	(text "Status"
 		(exclude_from_sim no)
-		(at 319.405 226.06 0)
+		(at 314.325 226.06 0)
 		(effects
 			(font
 				(size 4 4)
@@ -26840,7 +26840,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 203.2) (xy 382.27 205.74)
+			(xy 377.19 203.2) (xy 377.19 205.74)
 		)
 		(stroke
 			(width 0)
@@ -27460,7 +27460,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 171.45) (xy 345.44 175.26)
+			(xy 340.36 171.45) (xy 340.36 175.26)
 		)
 		(stroke
 			(width 0)
@@ -27610,7 +27610,7 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 182.88) (xy 403.86 185.42)
+			(xy 398.78 180.34) (xy 398.78 182.88)
 		)
 		(stroke
 			(width 0)
@@ -27810,7 +27810,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 190.5) (xy 382.27 193.04)
+			(xy 377.19 190.5) (xy 377.19 193.04)
 		)
 		(stroke
 			(width 0)
@@ -28080,7 +28080,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 180.34) (xy 345.44 182.88)
+			(xy 340.36 180.34) (xy 340.36 182.88)
 		)
 		(stroke
 			(width 0)
@@ -28260,7 +28260,7 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 193.04) (xy 403.86 205.74)
+			(xy 398.78 190.5) (xy 398.78 205.74)
 		)
 		(stroke
 			(width 0)
@@ -28340,7 +28340,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 203.2) (xy 345.44 205.74)
+			(xy 340.36 203.2) (xy 340.36 205.74)
 		)
 		(stroke
 			(width 0)
@@ -29080,7 +29080,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 198.12) (xy 337.82 198.12)
+			(xy 328.93 198.12) (xy 332.74 198.12)
 		)
 		(stroke
 			(width 0)
@@ -29470,7 +29470,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 180.34) (xy 382.27 182.88)
+			(xy 377.19 180.34) (xy 377.19 182.88)
 		)
 		(stroke
 			(width 0)
@@ -30040,7 +30040,7 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 171.45) (xy 403.86 177.8)
+			(xy 398.78 171.45) (xy 398.78 175.26)
 		)
 		(stroke
 			(width 0)
@@ -30480,7 +30480,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 198.12) (xy 374.65 198.12)
+			(xy 365.76 198.12) (xy 369.57 198.12)
 		)
 		(stroke
 			(width 0)
@@ -30770,7 +30770,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 171.45) (xy 382.27 175.26)
+			(xy 377.19 171.45) (xy 377.19 175.26)
 		)
 		(stroke
 			(width 0)
@@ -31300,7 +31300,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 190.5) (xy 345.44 193.04)
+			(xy 340.36 190.5) (xy 340.36 193.04)
 		)
 		(stroke
 			(width 0)
@@ -32736,7 +32736,7 @@
 	)
 	(global_label "VDD3P3V"
 		(shape input)
-		(at 382.27 171.45 90)
+		(at 377.19 171.45 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32746,7 +32746,7 @@
 		)
 		(uuid "5215514b-c61e-4fee-b382-983bd89bccc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.27 160.0586 90)
+			(at 377.19 160.0586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32840,7 +32840,7 @@
 	)
 	(global_label "VDD3P3V"
 		(shape input)
-		(at 403.86 171.45 90)
+		(at 398.78 171.45 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32850,7 +32850,7 @@
 		)
 		(uuid "8976304e-4350-4ae3-b475-4499ec673140")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 403.86 160.0586 90)
+			(at 398.78 160.0586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32966,7 +32966,7 @@
 	)
 	(global_label "P1_VADJ"
 		(shape input)
-		(at 370.84 198.12 180)
+		(at 365.76 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32976,7 +32976,7 @@
 		)
 		(uuid "b25db9fc-d70c-4672-b03a-ba4aab985969")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.9929 198.12 0)
+			(at 354.9129 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33134,7 +33134,7 @@
 	)
 	(global_label "VDD3P3V"
 		(shape input)
-		(at 345.44 171.45 90)
+		(at 340.36 171.45 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33144,7 +33144,7 @@
 		)
 		(uuid "f658886a-3719-46a2-aaf2-6d2620fbe335")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 160.0586 90)
+			(at 340.36 160.0586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33155,7 +33155,7 @@
 	)
 	(global_label "P1_PG_C2M"
 		(shape input)
-		(at 334.01 198.12 180)
+		(at 328.93 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33165,7 +33165,7 @@
 		)
 		(uuid "f6c4f275-6ef1-4473-8020-faa378153d0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.1392 198.12 0)
+			(at 315.0592 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33418,7 +33418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 245.11 242.57 0)
 			(effects
 				(font
@@ -33437,6 +33437,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 245.11 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 245.11 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 245.11 242.57 0)
 			(effects
 				(font
@@ -34737,7 +34755,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 77.216 240.03 0)
 			(effects
 				(font
@@ -34746,7 +34764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 74.93 238.76 0)
 			(effects
 				(font
@@ -34764,7 +34782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 74.93 238.76 0)
 			(effects
 				(font
@@ -34773,7 +34791,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R7BB105"
+		(property "MPN" "GRM21BR61E226ME44L"
 			(at 74.93 238.76 0)
 			(effects
 				(font
@@ -34782,7 +34800,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Murata Electronics"
+			(at 74.93 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-10749-1-ND"
 			(at 74.93 238.76 0)
 			(effects
 				(font
@@ -34808,7 +34844,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 403.86 180.34 180)
+		(at 398.78 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34817,7 +34853,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e70fc73-9161-4078-99a3-b6331a4f2be2")
 		(property "Reference" "R20"
-			(at 406.4 179.07 0)
+			(at 401.32 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34826,7 +34862,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 406.4 181.61 0)
+			(at 401.32 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34835,7 +34871,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 403.86 180.34 0)
+			(at 398.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34844,7 +34880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 403.86 180.34 0)
+			(at 398.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34852,8 +34888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 403.86 180.34 0)
+		(property "Description" "RES 1K OHM 1% 1/4W 0603"
+			(at 398.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34861,8 +34897,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-071KL"
-			(at 403.86 180.34 90)
+		(property "MPN" "ESR03EZPF1001"
+			(at 398.78 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34870,8 +34906,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 403.86 180.34 0)
+		(property "Manufacturer" "Rohm Semiconductor"
+			(at 398.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 398.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RHM1.00KADCT-ND"
+			(at 398.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35006,7 +35060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0603"
 			(at 76.2 156.21 0)
 			(effects
 				(font
@@ -35026,6 +35080,24 @@
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
 			(at 76.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 76.2 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "P0.0GCT-ND"
+			(at 76.2 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35292,7 +35364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 289.56 128.27 0)
 			(effects
 				(font
@@ -35311,6 +35383,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 289.56 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 289.56 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 289.56 128.27 0)
 			(effects
 				(font
@@ -36575,7 +36665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 356.87 128.27 0)
 			(effects
 				(font
@@ -36594,6 +36684,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 356.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 356.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 356.87 128.27 0)
 			(effects
 				(font
@@ -37858,7 +37966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 224.79 127 0)
 			(effects
 				(font
@@ -37877,6 +37985,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 224.79 127 0)
 			(effects
 				(font
@@ -39140,7 +39266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 148.59 127 0)
 			(effects
 				(font
@@ -39159,6 +39285,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 148.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 148.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 148.59 127 0)
 			(effects
 				(font
@@ -40422,7 +40566,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
+			(at 64.77 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 64.77 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 64.77 191.77 0)
 			(effects
 				(font
@@ -40442,7 +40604,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 345.44 186.69 90)
+		(at 340.36 186.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40451,7 +40613,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fa52df1-48cb-479d-8894-a98ac11e56e7")
 		(property "Reference" "D1"
-			(at 349.25 187.6425 90)
+			(at 344.17 187.6425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40460,7 +40622,7 @@
 			)
 		)
 		(property "Value" "LED_Green"
-			(at 349.25 190.1825 90)
+			(at 344.17 190.1825 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40469,7 +40631,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 345.44 186.69 0)
+			(at 340.36 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40478,7 +40640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 186.69 0)
+			(at 340.36 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40487,7 +40649,7 @@
 			)
 		)
 		(property "Description" "Green 570nm LED Indication - Discrete 2.1V 0603 (1608 Metric)"
-			(at 345.44 186.69 0)
+			(at 340.36 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40496,7 +40658,7 @@
 			)
 		)
 		(property "MPN" "APT1608CGCK"
-			(at 345.44 186.69 90)
+			(at 340.36 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40505,7 +40667,25 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 345.44 186.69 0)
+			(at 340.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 340.36 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "754-1116-1-ND"
+			(at 340.36 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40774,7 +40954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 220.98 242.57 0)
 			(effects
 				(font
@@ -40793,6 +40973,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 220.98 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 220.98 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 220.98 242.57 0)
 			(effects
 				(font
@@ -42077,7 +42275,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 345.44 177.8 180)
+		(at 340.36 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42086,7 +42284,7 @@
 		(fields_autoplaced yes)
 		(uuid "5def67d2-7adb-4aea-b40b-bede7fa344c7")
 		(property "Reference" "R18"
-			(at 347.98 176.53 0)
+			(at 342.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42095,7 +42293,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 347.98 179.07 0)
+			(at 342.9 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42104,7 +42302,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 345.44 177.8 0)
+			(at 340.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42113,7 +42311,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 177.8 0)
+			(at 340.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42121,8 +42319,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 345.44 177.8 0)
+		(property "Description" "RES 1K OHM 1% 1/4W 0603"
+			(at 340.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42130,8 +42328,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-071KL"
-			(at 345.44 177.8 90)
+		(property "MPN" "ESR03EZPF1001"
+			(at 340.36 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42139,8 +42337,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 345.44 177.8 0)
+		(property "Manufacturer" "Rohm Semiconductor"
+			(at 340.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 340.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RHM1.00KADCT-ND"
+			(at 340.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42673,7 +42889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 300.99 243.84 0)
 			(effects
 				(font
@@ -42692,6 +42908,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 300.99 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 300.99 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 300.99 243.84 0)
 			(effects
 				(font
@@ -44096,7 +44330,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNI"
+		(property "MPN" ""
+			(at 64.77 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 64.77 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 64.77 199.39 0)
 			(effects
 				(font
@@ -44164,7 +44416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 137.16 242.57 0)
 			(effects
 				(font
@@ -44183,6 +44435,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 137.16 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 137.16 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 137.16 242.57 0)
 			(effects
 				(font
@@ -45446,7 +45716,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
+			(at 64.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 64.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 64.77 186.69 0)
 			(effects
 				(font
@@ -45577,7 +45865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 274.32 243.84 0)
 			(effects
 				(font
@@ -45596,6 +45884,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 274.32 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 274.32 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 274.32 243.84 0)
 			(effects
 				(font
@@ -46896,7 +47202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 41.656 238.76 0)
 			(effects
 				(font
@@ -46905,7 +47211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 237.49 0)
 			(effects
 				(font
@@ -46923,7 +47229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 39.37 237.49 0)
 			(effects
 				(font
@@ -46932,7 +47238,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R7BB105"
+		(property "MPN" "GRM21BR61E226ME44L"
 			(at 39.37 237.49 0)
 			(effects
 				(font
@@ -46941,7 +47247,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Murata Electronics"
+			(at 39.37 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 39.37 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "490-10749-1-ND"
 			(at 39.37 237.49 0)
 			(effects
 				(font
@@ -46967,7 +47291,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 403.86 205.74 0)
+		(at 398.78 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46975,7 +47299,7 @@
 		(dnp no)
 		(uuid "b6500924-041f-413c-9834-88d64b8ee37b")
 		(property "Reference" "#PWR057"
-			(at 403.86 212.09 0)
+			(at 398.78 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46984,7 +47308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 403.86 209.55 0)
+			(at 398.78 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46992,7 +47316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 403.86 205.74 0)
+			(at 398.78 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47001,7 +47325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 403.86 205.74 0)
+			(at 398.78 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47010,7 +47334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 403.86 205.74 0)
+			(at 398.78 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47032,7 +47356,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 379.73 198.12 0)
+		(at 374.65 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47041,7 +47365,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfede263-f064-4e42-93e3-b7f54c773e03")
 		(property "Reference" "Q2"
-			(at 386.08 196.8499 0)
+			(at 381 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47050,7 +47374,7 @@
 			)
 		)
 		(property "Value" "FDN335N"
-			(at 386.08 199.3899 0)
+			(at 381 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47059,7 +47383,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 384.81 195.58 0)
+			(at 379.73 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47068,7 +47392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 379.73 198.12 0)
+			(at 374.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47077,7 +47401,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 20V 1.7A SUPERSOT3"
-			(at 379.73 198.12 0)
+			(at 374.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47086,7 +47410,7 @@
 			)
 		)
 		(property "MPN" "FDN335N"
-			(at 379.73 198.12 0)
+			(at 374.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47095,7 +47419,25 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 379.73 198.12 0)
+			(at 374.65 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 374.65 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "FDN335NCT-ND"
+			(at 374.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47123,7 +47465,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 382.27 186.69 90)
+		(at 377.19 186.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47132,7 +47474,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1a6cb2c-da09-48bf-b8d9-f8bcf4783e3a")
 		(property "Reference" "D2"
-			(at 386.08 187.6425 90)
+			(at 381 187.6425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47141,7 +47483,7 @@
 			)
 		)
 		(property "Value" "LED_Green"
-			(at 386.08 190.1825 90)
+			(at 381 190.1825 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47150,7 +47492,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 382.27 186.69 0)
+			(at 377.19 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47159,7 +47501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 186.69 0)
+			(at 377.19 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47168,7 +47510,7 @@
 			)
 		)
 		(property "Description" "Green 570nm LED Indication - Discrete 2.1V 0603 (1608 Metric)"
-			(at 382.27 186.69 0)
+			(at 377.19 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47177,7 +47519,7 @@
 			)
 		)
 		(property "MPN" "APT1608CGCK"
-			(at 382.27 186.69 90)
+			(at 377.19 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47186,7 +47528,25 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 382.27 186.69 0)
+			(at 377.19 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 377.19 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "754-1116-1-ND"
+			(at 377.19 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47211,7 +47571,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 403.86 189.23 90)
+		(at 398.78 186.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47220,7 +47580,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb8a19fb-e057-47c9-bbb8-6905abcf4f32")
 		(property "Reference" "D3"
-			(at 407.67 190.1825 90)
+			(at 402.59 187.6425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47229,7 +47589,7 @@
 			)
 		)
 		(property "Value" "LED_Green"
-			(at 407.67 192.7225 90)
+			(at 402.59 190.1825 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47238,7 +47598,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 403.86 189.23 0)
+			(at 398.78 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47247,7 +47607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 403.86 189.23 0)
+			(at 398.78 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47256,7 +47616,7 @@
 			)
 		)
 		(property "Description" "Green 570nm LED Indication - Discrete 2.1V 0603 (1608 Metric)"
-			(at 403.86 189.23 0)
+			(at 398.78 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47265,7 +47625,7 @@
 			)
 		)
 		(property "MPN" "APT1608CGCK"
-			(at 403.86 189.23 90)
+			(at 398.78 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47274,7 +47634,25 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 403.86 189.23 0)
+			(at 398.78 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 398.78 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "754-1116-1-ND"
+			(at 398.78 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47299,7 +47677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 382.27 205.74 0)
+		(at 377.19 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47307,7 +47685,7 @@
 		(dnp no)
 		(uuid "d4b108dd-ca01-4292-acd4-7040f854ad75")
 		(property "Reference" "#PWR056"
-			(at 382.27 212.09 0)
+			(at 377.19 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47316,7 +47694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 382.27 209.55 0)
+			(at 377.19 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47324,7 +47702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 205.74 0)
+			(at 377.19 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47333,7 +47711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 205.74 0)
+			(at 377.19 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47342,7 +47720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 205.74 0)
+			(at 377.19 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47364,7 +47742,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 382.27 177.8 180)
+		(at 377.19 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47373,7 +47751,7 @@
 		(fields_autoplaced yes)
 		(uuid "d90e4f07-f0a2-4676-b136-c564539b70be")
 		(property "Reference" "R19"
-			(at 384.81 176.53 0)
+			(at 379.73 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47382,7 +47760,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 384.81 179.07 0)
+			(at 379.73 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47391,7 +47769,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 382.27 177.8 0)
+			(at 377.19 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47400,7 +47778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 177.8 0)
+			(at 377.19 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47408,8 +47786,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 382.27 177.8 0)
+		(property "Description" "RES 1K OHM 1% 1/4W 0603"
+			(at 377.19 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47417,8 +47795,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-071KL"
-			(at 382.27 177.8 90)
+		(property "MPN" "ESR03EZPF1001"
+			(at 377.19 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47426,8 +47804,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 382.27 177.8 0)
+		(property "Manufacturer" "Rohm Semiconductor"
+			(at 377.19 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 377.19 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RHM1.00KADCT-ND"
+			(at 377.19 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47497,7 +47893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+		(property "Description" "CONN ARRAY PLUG 400POS SMD GOLD"
 			(at 191.77 242.57 0)
 			(effects
 				(font
@@ -47516,6 +47912,24 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 191.77 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 191.77 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM8730-ND"
 			(at 191.77 242.57 0)
 			(effects
 				(font
@@ -48788,7 +49202,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNI"
+		(property "MPN" ""
+			(at 44.45 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 44.45 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 44.45 199.39 0)
 			(effects
 				(font
@@ -48985,7 +49417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0603"
 			(at 39.37 156.21 0)
 			(effects
 				(font
@@ -49012,6 +49444,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Digikey"
+			(at 39.37 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "P0.0GCT-ND"
+			(at 39.37 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3da097b7-b5d3-4b5d-bdae-32fcd6781a02")
 		)
@@ -49029,7 +49479,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 342.9 198.12 0)
+		(at 337.82 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49038,7 +49488,7 @@
 		(fields_autoplaced yes)
 		(uuid "f16f5f26-c1d6-4dab-a05e-9d68d687d5d0")
 		(property "Reference" "Q1"
-			(at 349.25 196.8499 0)
+			(at 344.17 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49047,7 +49497,7 @@
 			)
 		)
 		(property "Value" "FDN335N"
-			(at 349.25 199.3899 0)
+			(at 344.17 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49056,7 +49506,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 347.98 195.58 0)
+			(at 342.9 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49065,7 +49515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 342.9 198.12 0)
+			(at 337.82 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49074,7 +49524,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 20V 1.7A SUPERSOT3"
-			(at 342.9 198.12 0)
+			(at 337.82 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49083,7 +49533,7 @@
 			)
 		)
 		(property "MPN" "FDN335N"
-			(at 342.9 198.12 0)
+			(at 337.82 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49092,7 +49542,25 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 342.9 198.12 0)
+			(at 337.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 337.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "FDN335NCT-ND"
+			(at 337.82 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49120,7 +49588,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 345.44 205.74 0)
+		(at 340.36 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49128,7 +49596,7 @@
 		(dnp no)
 		(uuid "f84d5b13-67d6-41ab-a273-78459f7cc021")
 		(property "Reference" "#PWR055"
-			(at 345.44 212.09 0)
+			(at 340.36 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49137,7 +49605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 345.44 209.55 0)
+			(at 340.36 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49145,7 +49613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 205.74 0)
+			(at 340.36 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49154,7 +49622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 205.74 0)
+			(at 340.36 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49163,7 +49631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 205.74 0)
+			(at 340.36 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49236,7 +49704,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNI"
+		(property "MPN" ""
+			(at 30.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 30.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 30.48 201.93 0)
 			(effects
 				(font

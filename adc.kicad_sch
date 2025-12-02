@@ -1324,6 +1324,16 @@
 		)
 		(uuid "513c40be-6a74-4e3d-ac8b-59df7e78596a")
 	)
+	(text "~{CS} Pull Up"
+		(exclude_from_sim no)
+		(at 195.834 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cfc10fd4-68fe-403f-8049-780e4056f11b")
+	)
 	(text "Bulk 47uF Cap found on FMC sheet"
 		(exclude_from_sim no)
 		(at 44.958 57.15 0)
@@ -1373,6 +1383,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dc2e1b3-9da8-4664-ab6d-0c68acd62914")
+	)
+	(junction
+		(at 180.34 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e96b378-1bf4-46d4-9393-c60fb74d66af")
 	)
 	(junction
 		(at 168.91 67.31)
@@ -1563,6 +1579,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 102.87) (xy 193.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14722393-8102-4204-85e9-54d7147a1b4c")
+	)
+	(wire
+		(pts
 			(xy 179.07 67.31) (xy 189.23 67.31)
 		)
 		(stroke
@@ -1683,7 +1709,7 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 95.25) (xy 194.31 95.25)
+			(xy 182.88 95.25) (xy 195.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2073,6 +2099,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 102.87) (xy 203.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fe0450-f125-4325-a56f-e3da4d0988c7")
+	)
+	(wire
+		(pts
 			(xy 223.52 24.13) (xy 251.46 24.13)
 		)
 		(stroke
@@ -2331,6 +2367,27 @@
 		)
 		(uuid "fdf4f4b1-d11f-45fb-8b32-ac2aafb93c34")
 	)
+	(global_label "P1_VADJ"
+		(shape input)
+		(at 203.2 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0630c83d-244c-404c-b0c3-dabf190dbd9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.0471 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "P1_12P0V"
 		(shape input)
 		(at 27.94 58.42 180)
@@ -2397,7 +2454,7 @@
 	)
 	(hierarchical_label "ADC_Control{DSPI}"
 		(shape bidirectional)
-		(at 194.31 95.25 0)
+		(at 195.58 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2466,6 +2523,110 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 195.58 102.87 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04a8f471-97d3-4e76-88c3-962f853193aa")
+		(property "Reference" "R27"
+			(at 195.326 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.75k"
+			(at 195.58 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.75K OHM 1% 1/10W 0603"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-134K75L"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo "
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "311-4.42KHRCT-ND"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "facd7633-ed89-4fc3-8dc9-36698e3efeba")
+		)
+		(pin "2"
+			(uuid "d3f847fc-2915-4e8b-bbbb-b2599d0f3b19")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/d098b615-7cba-44eb-be59-7a71f2f48c2b"
+					(reference "R27")
 					(unit 1)
 				)
 			)

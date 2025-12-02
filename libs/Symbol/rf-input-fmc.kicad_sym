@@ -20884,14 +20884,14 @@
 			(pin tri_state line
 				(at 20.32 1.27 180)
 				(length 5.08)
-				(name "4Y1"
+				(name "3Y1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20938,14 +20938,14 @@
 			(pin tri_state line
 				(at 20.32 -6.35 180)
 				(length 5.08)
-				(name "4Y4"
+				(name "3Y4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20956,14 +20956,14 @@
 			(pin tri_state line
 				(at 20.32 -8.89 180)
 				(length 5.08)
-				(name "3Y1"
+				(name "4Y1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21010,14 +21010,14 @@
 			(pin tri_state line
 				(at 20.32 -16.51 180)
 				(length 5.08)
-				(name "3Y4"
+				(name "4Y4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)

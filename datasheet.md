@@ -30,27 +30,15 @@ The FPGA Clock input only operate up to 650MHz.
 Realistically, that layout will limit the bandwidth *we should test this limit*
 
 ### Input Range
-There will some loss in the splitter transformer:
-![[Pasted image 20251021103838.png]]
 
-I'll use 3.5dB
-
-There will some loss in the input transformer
-This is the chart from the TCM2-33WX+ Input Coupling transformer
-
-| **Frequency(MHz)** | Insertion Loss(dB) | Return Loss(dB) | Amplitude Unbalance(dB) | Phase Unbalance(deg) |
-| ------------------ | ------------------ | --------------- | ----------------------- | -------------------- |
-| 10                 | 0.87               | 21.66           | 0.03                    | 0.01                 |
-| 100                | 0.78               | 28.58           | 0.03                    | 0.04                 |
-| 400                | 0.95               | 21.26           | 0.05                    | 0.82                 |
-|                    |                    |                 |                         |                      |
-We can add another .8dB for a total of 4.3dB loss before the signal reaches the LMK01801
-
-From LMK01801:
+From LMK01801 [datasheet](https://www.ti.com/lit/ds/symlink/lmk01801.pdf) section 7.4:
 Vin_max = 3.1V p-p
 Vin_min = 0.5V p-p
 
-So input range of -5.8dbm - 25.9 dBm 
+Adding in the losses from input transformers we arrive at an input range of:
+2.26dBm though 18.11 dBm.
+
+An absolute max input can 19.41 dBm.
 ## Digital Inputs
 
 | **parameter**               | value                                 |

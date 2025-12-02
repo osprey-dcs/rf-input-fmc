@@ -1196,7 +1196,7 @@
 			)
 		)
 		(pin "FMC_CLK0_M2C{DP}" input
-			(at 176.53 100.33 180)
+			(at 176.53 102.87 180)
 			(uuid "71afeaf0-a678-4860-b249-66e01f5743de")
 			(effects
 				(font
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(pin "FMC_CLK1_M2C{DP}" input
-			(at 176.53 105.41 180)
+			(at 176.53 100.33 180)
 			(uuid "8b102b1a-c396-40d6-9060-099f59356313")
 			(effects
 				(font
@@ -1236,7 +1236,7 @@
 			)
 		)
 		(pin "FMC_GBTCLK1{DP}" input
-			(at 176.53 102.87 180)
+			(at 176.53 105.41 180)
 			(uuid "341c1820-f0df-4d63-b367-f15e9a67566a")
 			(effects
 				(font

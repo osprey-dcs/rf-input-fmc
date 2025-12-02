@@ -218,3 +218,72 @@ This uses the same setup and Quartz
 
 ## FMC
 Outside of the Clock lines and fixed function pins, the current pin assignments are just placeholders
+
+## Input Range
+
+From LMK01801 [datasheet](https://www.ti.com/lit/ds/symlink/lmk01801.pdf) section 7.4:
+Vin_max = 3.1V p-p
+Vin_min = 0.5V p-p
+
+Assuming 50ohm input impedance and sine wave input this translates to:
+	3.1V p-p    | 0.5V p-p
+	1.096Vrms | 0.1768Vrms
+	24.03mW   | 0.625mW
+	13.81 dbm | -2.04dbm
+	
+There will some loss in the splitter transformer:
+![[Pasted image 20251021103838.png]]
+I'll use 3.5dB
+
+There will some loss in the input transformer
+This is the chart from the TCM2-33WX+ Input Coupling transformer
+
+| **Frequency(MHz)** | Insertion Loss(dB) | Return Loss(dB) | Amplitude Unbalance(dB) | Phase Unbalance(deg) |
+| ------------------ | ------------------ | --------------- | ----------------------- | -------------------- |
+| 10                 | 0.87               | 21.66           | 0.03                    | 0.01                 |
+| 100                | 0.78               | 28.58           | 0.03                    | 0.04                 |
+| 400                | 0.95               | 21.26           | 0.05                    | 0.82                 |
+|                    |                    |                 |                         |                      |
+We can add another .8dB for a total of 4.3dB loss before the signal reaches the LMK01801
+
+Adding in the losses to these number we arrive at an input range of 2.26dbm though 18.11 dBm.
+An absolute max input can 19.41 dbm.
+
+### RF detection range
+The ADL5501 [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5501.pdf) Table 1 mentions to stay within +/- 1db error the IC should receive a signal input from -18dBm though 6dBm.
+We have added a resistive divider to cut the signal down to better match this linear region.
+Including the divider this will put the recommended input (2dBm - 18dBm) at -4.5dBm - 11.5dBm.
+While this does start to fall outside of the ideal linear range of of the ADL5501, it is within the max 15dBm input (Table 2 of datasheet).
+
+We can see from Figure 7 from the datasheet (see below) we can see at 100Mhz the error at 11.5dBm input (the expected max input) about -1dBm of error. 
+![[Pasted image 20251106101029.png]]
+
+
+
+### Trace Impedance for High Speed signals
+
+We have both microstrip 50ohm and edge coupled 100ohm differential tracing need impendence controlled traces
+
+Using the Oshpark 6 layer stackup as a starting point on calculating the trace width and spacing.[link](https://docs.oshpark.com/services/six-layer/)
+For outer layer to the refences plane dimension are:
+Height = 4.36mil(0.1107mm)
+Thickness = 1.7mil (0.0432mm)
+FR408HR εR = 3.23@1GHz
+Isola FR408HR [datasheet](https://www.isola-group.com/pcb-laminates-prepreg/fr408hr-laminate-and-prepreg/ showing a nominal Dk of 3.68
+
+#### 50ohm single ended traces
+Using the approximation of the full equations as a starting point
+Z0 = ((87/√(εR + 1.41)) ln ((5.98 ×_H_)/(0.8_W_ + _T_)) Ω
+with 0.1 < W/H <3.0
+
+
+We get the the trace width of 7.32mil (0.1859mm)
+Confirming using the Saturn PCB Toolkit I get a Z0 of 48.44ohm.
+I'm using metric units on the trace, so I will use 0.175mm traces which gives me a Z0 of 49.95ohm @1.3GHz & 49.94ohm @100MHz
+
+#### 100hm Differential Traces
+Using the Saturn PCB Toolkit and the above geometry and a 0.14mm trace width and 0.25mm spacing I get a Zdiff of 100.092ohm @ Dk= 3.62 or 101.265ohm @ Dk= 3.23.
+Both are well within the general 10% tolerance a board manufacturer will provide.
+
+
+

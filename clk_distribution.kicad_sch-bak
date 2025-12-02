@@ -785,144 +785,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2136,12 +1998,6 @@
 		(uuid "ad9be8bf-709b-4de3-82e6-a859ec338836")
 	)
 	(junction
-		(at 219.71 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b09f104a-6adf-44e4-9e00-0dd4eaba082a")
-	)
-	(junction
 		(at 111.76 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2165,19 +2021,21 @@
 		(color 0 0 0 0)
 		(uuid "f155ec2c-72f2-4836-ad81-1bf621fee1c0")
 	)
-	(junction
-		(at 90.17 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff2b4a26-70bd-4a18-bfd0-bcc20c8b4f26")
-	)
 	(no_connect
 		(at 162.56 116.84)
 		(uuid "0dcd8a5d-2515-47ed-be84-fa3cf59ebea7")
 	)
 	(no_connect
+		(at 162.56 83.82)
+		(uuid "107b74cf-786a-4b3a-875a-f9f5cf3eaa23")
+	)
+	(no_connect
 		(at 162.56 147.32)
 		(uuid "254bf32e-c47e-4f90-b1af-02aebdf5b6a7")
+	)
+	(no_connect
+		(at 162.56 86.36)
+		(uuid "3028a86c-27c3-46f0-bd39-8250298fcb29")
 	)
 	(no_connect
 		(at 162.56 109.22)
@@ -2598,6 +2456,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 25.4) (xy 251.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f663dce-03b1-4f4d-a563-97de05814f10")
+	)
+	(wire
+		(pts
 			(xy 111.76 137.16) (xy 111.76 157.48)
 		)
 		(stroke
@@ -2605,16 +2473,6 @@
 			(type default)
 		)
 		(uuid "3238c0ce-e985-477c-8151-6457daf2908f")
-	)
-	(wire
-		(pts
-			(xy 226.06 17.78) (xy 245.11 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "323a0a88-063f-4bd6-a6bb-0c53558644d6")
 	)
 	(wire
 		(pts
@@ -2718,26 +2576,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 25.4) (xy 245.11 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f75a057-cb62-4693-bf33-6c985afe412a")
-	)
-	(wire
-		(pts
-			(xy 90.17 134.62) (xy 90.17 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4235a3fc-5b3a-428f-8ce6-204eccede8a3")
-	)
-	(wire
-		(pts
 			(xy 93.98 110.49) (xy 116.84 110.49)
 		)
 		(stroke
@@ -2768,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 88.9) (xy 219.71 90.17)
+			(xy 219.71 91.44) (xy 219.71 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2908,13 +2746,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 86.36) (xy 212.09 90.17)
+			(xy 219.71 130.81) (xy 219.71 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ab989da-95c3-43e2-ad35-5cf209bdcb1b")
+		(uuid "56dd41e5-1cfe-4da7-8a50-e00c6ab8fc46")
 	)
 	(wire
 		(pts
@@ -2925,16 +2763,6 @@
 			(type default)
 		)
 		(uuid "5b99125a-daff-4b00-b483-981d00178320")
-	)
-	(wire
-		(pts
-			(xy 219.71 91.44) (xy 219.71 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ca18820-ef08-401c-b631-997679e75fda")
 	)
 	(wire
 		(pts
@@ -3168,16 +2996,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 214.63 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a212ade2-77ca-41de-a82f-671d205eeca0")
-	)
-	(wire
-		(pts
 			(xy 119.38 54.61) (xy 119.38 57.15)
 		)
 		(stroke
@@ -3268,6 +3086,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 111.76) (xy 219.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab338f6-8f78-450b-8a0c-9815f4691c74")
+	)
+	(wire
+		(pts
+			(xy 219.71 149.86) (xy 219.71 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2be355-9074-4fc8-8feb-b2ad757da65b")
+	)
+	(wire
+		(pts
 			(xy 147.32 54.61) (xy 147.32 57.15)
 		)
 		(stroke
@@ -3288,13 +3126,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 20.32) (xy 245.11 20.32)
+			(xy 226.06 20.32) (xy 251.46 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c42dd7e2-0a92-4c61-bfc2-b680ff2cf0cc")
+		(uuid "c20912a7-bcfd-4483-b3f3-3248e68dad37")
 	)
 	(wire
 		(pts
@@ -3318,13 +3156,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 90.17) (xy 219.71 90.17)
+			(xy 226.06 22.86) (xy 251.46 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8671c1f-1656-4022-90c6-379f573795dd")
+		(uuid "cca0b542-a005-4630-8338-0e44426ab132")
 	)
 	(wire
 		(pts
@@ -3375,16 +3213,6 @@
 			(type default)
 		)
 		(uuid "d6285c0d-2afc-455d-b525-8bb99d4cfdf7")
-	)
-	(wire
-		(pts
-			(xy 90.17 151.13) (xy 90.17 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7f1cce2-c26c-4267-bb9d-33931f02c0f8")
 	)
 	(wire
 		(pts
@@ -3468,6 +3296,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 17.78) (xy 251.46 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea663917-e4fd-4096-b700-d0eabcbbe7ae")
+	)
+	(wire
+		(pts
 			(xy 95.25 96.52) (xy 95.25 95.25)
 		)
 		(stroke
@@ -3495,16 +3333,6 @@
 			(type default)
 		)
 		(uuid "efb79c0d-9eae-4342-b2e1-9a4542d6ddfd")
-	)
-	(wire
-		(pts
-			(xy 226.06 22.86) (xy 245.11 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30fdd71-5796-4d40-80ae-8e236158eaff")
 	)
 	(wire
 		(pts
@@ -3606,16 +3434,6 @@
 		)
 		(uuid "fe54056f-2463-4bcb-b0a9-a31c019e8fa9")
 	)
-	(wire
-		(pts
-			(xy 162.56 86.36) (xy 212.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb22c48-fd7a-4519-870d-4472c09f1417")
-	)
 	(label "CLK_Control.LE"
 		(at 92.71 134.62 0)
 		(effects
@@ -3625,6 +3443,16 @@
 			(justify left bottom)
 		)
 		(uuid "08b8add2-3817-4525-a0d3-d312900ae4fb")
+	)
+	(label "RF_CLKIN_1.P"
+		(at 226.06 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1383a3d4-ba17-4428-b99f-467ae3e301b2")
 	)
 	(label "RF_CLKOUT_12.N"
 		(at 226.06 46.99 0)
@@ -3676,6 +3504,16 @@
 		)
 		(uuid "30683ee1-c530-4655-8b33-a16ee17ac9ab")
 	)
+	(label "RF_CLKIN_0.N"
+		(at 226.06 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c5ad707-d80b-4d50-9cab-e46c22faa6e7")
+	)
 	(label "LMK_VCC_13"
 		(at 95.25 72.39 180)
 		(effects
@@ -3695,16 +3533,6 @@
 			(justify left bottom)
 		)
 		(uuid "5a18cb8d-57f9-4a04-8d65-d2e0502412e1")
-	)
-	(label "RF_CLKIN_0.N"
-		(at 226.06 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b218acb-dc70-4b49-8b67-a1405647ea28")
 	)
 	(label "RF_CLKOUT_8.N"
 		(at 226.06 41.91 0)
@@ -3726,6 +3554,16 @@
 		)
 		(uuid "5ea768aa-e3d2-42af-a504-5643bd1f91ab")
 	)
+	(label "RF_CLKIN_0.P"
+		(at 226.06 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65db738a-0424-4e28-916b-b7e91b2bfea4")
+	)
 	(label "LMK_VCC_2468"
 		(at 97.79 76.2 180)
 		(effects
@@ -3737,7 +3575,7 @@
 		(uuid "6ecba798-52d8-4001-a3fd-372155b13755")
 	)
 	(label "RF_CLKOUT_12.N"
-		(at 165.1 139.7 0)
+		(at 165.1 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3806,16 +3644,6 @@
 		)
 		(uuid "80116a60-249d-4c19-82e7-9f01568d0517")
 	)
-	(label "RF_CLKIN_0.P"
-		(at 226.06 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86640d41-47a3-44bc-aa90-6f1ddf073776")
-	)
 	(label "RF_CLKOUT_0.P"
 		(at 226.06 29.21 0)
 		(effects
@@ -3827,7 +3655,7 @@
 		(uuid "9194cfbd-414e-40c7-a46b-8d0eb3643504")
 	)
 	(label "RF_CLKOUT_12.P"
-		(at 165.1 142.24 0)
+		(at 165.1 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3836,8 +3664,18 @@
 		)
 		(uuid "94738cc4-309a-4310-a1ed-b4ce6f0c18f7")
 	)
+	(label "RF_CLKIN_1.N"
+		(at 226.06 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96d78833-2b38-4300-9308-06a245acf343")
+	)
 	(label "RF_CLKOUT_0.P"
-		(at 165.1 81.28 0)
+		(at 165.1 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3845,16 +3683,6 @@
 			(justify left bottom)
 		)
 		(uuid "98e26fd8-31a7-46c8-9777-df74974fbb96")
-	)
-	(label "RF_CLKIN_1.P"
-		(at 226.06 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9bcc388a-2e80-4f89-9722-511e7fe64951")
 	)
 	(label "LMK_VCC_2468"
 		(at 97.79 99.06 180)
@@ -3907,7 +3735,7 @@
 		(uuid "b2f68332-2895-49fb-b5ee-2e2703eb155e")
 	)
 	(label "RF_CLKOUT_0.N"
-		(at 165.1 78.74 0)
+		(at 165.1 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4005,16 +3833,6 @@
 			(justify right bottom)
 		)
 		(uuid "f592a4e5-0153-44b9-8334-f38f96dbaf61")
-	)
-	(label "RF_CLKIN_1.N"
-		(at 226.06 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7e75923-8fdc-4f3a-a7d5-2c6b900ac15a")
 	)
 	(label "LMK_VCC_13"
 		(at 95.25 80.01 180)
@@ -4124,378 +3942,6 @@
 		)
 		(uuid "f4072b9d-50a0-4cec-b17c-5edc813273ee")
 	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "060221f6-eeb4-4813-9d86-5a695c9e8b79")
-		(property "Netclass" "Controlled"
-			(at 246.3165 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15203c19-0407-49e1-b323-9f0947d14e1f")
-		(property "Netclass" "Controlled"
-			(at 246.3165 24.13 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21c2c4b3-afff-4b44-872e-97f4f98eac98")
-		(property "Netclass" "Controlled"
-			(at 246.3165 40.64 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21ee8250-6e9a-4185-81ff-dcf3f0fcfc56")
-		(property "Netclass" "Controlled"
-			(at 246.3165 35.56 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 22.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56255b2c-56cd-49e0-b44f-a9851595ccba")
-		(property "Netclass" "Controlled"
-			(at 246.3165 21.59 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 20.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "599b2558-c19b-4fca-9c8e-b2e6fa5a25c7")
-		(property "Netclass" "Controlled"
-			(at 246.3165 19.05 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.077 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ceb2b0a-12bd-44df-a811-87de5745d86a")
-		(property "Netclass" "Controlled"
-			(at 246.2835 33.02 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.127 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7be977cf-085c-4e6f-ab8c-ff87ae69e093")
-		(property "Netclass" "Controlled"
-			(at 246.3165 45.72 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d713df8-7469-4bad-9fa5-b658afa33951")
-		(property "Netclass" "Controlled"
-			(at 246.3165 30.48 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 17.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9beb1fef-1b2f-4a2b-b3e7-3592c64716f9")
-		(property "Netclass" "Controlled"
-			(at 246.3165 16.51 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.11 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e34c8e1c-63ef-4dd4-ae87-c3dbca7d0045")
-		(property "Netclass" "Controlled"
-			(at 246.3165 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.16 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape diamond)
-		(at 245.077 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e834eb00-d29f-4861-b979-28e51855ddfb")
-		(property "Netclass" "Controlled"
-			(at 246.2835 27.94 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 10.127 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 251.46 44.45 270)
@@ -4524,7 +3970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:TestPoint_Pad_0.14mmx0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 49.53 0)
 			(effects
 				(font
@@ -4681,6 +4127,71 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a01edaf-8fec-4906-938c-b0efd877e448")
+		(property "Reference" "#PWR064"
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec874dbd-c2ae-4e7e-8ab2-1827bd42bc03")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4882,7 +4393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:TestPoint_Pad_0.14mmx0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 46.99 0)
 			(effects
 				(font
@@ -5072,7 +4583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:TestPoint_Pad_0.14mmx0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 36.83 0)
 			(effects
 				(font
@@ -5236,7 +4747,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 91.44 0)
+		(at 219.71 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5244,7 +4755,7 @@
 		(dnp no)
 		(uuid "30a7a342-8b6d-40a6-9f65-1e9dde299c92")
 		(property "Reference" "#PWR067"
-			(at 219.71 97.79 0)
+			(at 219.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +4764,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 95.504 0)
+			(at 219.71 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +4772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 91.44 0)
+			(at 219.71 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +4781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 91.44 0)
+			(at 219.71 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +4790,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 91.44 0)
+			(at 219.71 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,109 +4916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 90.17 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44b037ed-24c8-418e-a8dd-4df1866df63a")
-		(property "Reference" "R26"
-			(at 93.345 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.75k"
-			(at 93.98 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 4.75K OHM 1% 1/10W 0603"
-			(at 90.17 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-134K75L"
-			(at 90.17 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo "
-			(at 90.17 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 90.17 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-4.42KHRCT-ND"
-			(at 90.17 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9f20e03-4402-4777-b2d7-bf9fe2c99a3d")
-		)
-		(pin "2"
-			(uuid "1f51b59a-521d-49d6-9ce5-ed14a508de82")
-		)
-		(instances
-			(project "rf-input-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Ferrite_Small")
 		(at 125.73 46.99 90)
 		(unit 1)
@@ -5611,71 +5019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59ef24dc-8b10-4b7c-ac5b-8f1e6959d419")
-		(property "Reference" "#PWR064"
-			(at 90.17 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d8584f1-4f09-45b8-820d-51c712466909")
-		)
-		(instances
-			(project "rf-input-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 251.46 55.88 270)
 		(unit 1)
@@ -5755,6 +5098,109 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 219.71 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63c02b10-5b35-4fd0-9ec3-f38bcc9cdfbf")
+		(property "Reference" "J21"
+			(at 219.3926 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 219.3926 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM10617-ND"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e141e3ad-b6d6-4eb5-9ef4-2ae963fae0fd")
+		)
+		(pin "1"
+			(uuid "f63168e3-bd8c-407c-bac7-41dc84a33df3")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -5894,6 +5340,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 219.71 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "769ce53c-48a7-4847-8f81-e8835d4717f5")
+		(property "Reference" "J22"
+			(at 219.3926 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 219.3926 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM10617-ND"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fff63262-fbef-475a-8537-00ea959a31ae")
+		)
+		(pin "1"
+			(uuid "b6588ce9-8948-4d7d-9c11-eb5b1932ab56")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 74.93 76.2 270)
 		(unit 1)
@@ -5993,6 +5542,91 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b5ca2bf-8bda-4212-a5c5-1d0936f61795")
+		(property "Reference" "TP2"
+			(at 256.286 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 256.54 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 251.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65552928-635a-4e20-a2c8-57f3436ba39c")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6105,7 +5739,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 219.71 83.82 0)
+		(at 219.71 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6113,14 +5747,6 @@
 		(dnp no)
 		(uuid "8697a8dc-f831-4818-a960-66e4831d4791")
 		(property "Reference" "J20"
-			(at 219.3926 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MMCX"
 			(at 219.3926 80.01 0)
 			(effects
 				(font
@@ -6128,8 +5754,16 @@
 				)
 			)
 		)
+		(property "Value" "MMCX"
+			(at 219.3926 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
-			(at 219.71 83.82 0)
+			(at 219.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +5772,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 83.82 0)
+			(at 219.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +5781,7 @@
 			)
 		)
 		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
-			(at 219.71 83.82 0)
+			(at 219.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +5790,7 @@
 			)
 		)
 		(property "MPN" "MMCX-J-P-H-ST-TH1"
-			(at 219.71 83.82 0)
+			(at 219.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +5799,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 219.71 83.82 0)
+			(at 219.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +5808,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 219.71 83.82 0)
+			(at 219.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +5817,7 @@
 			)
 		)
 		(property "Supplier Part Number" "SAM10617-ND"
-			(at 219.71 83.82 0)
+			(at 219.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,6 +5906,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9557026d-feb3-4f27-bb44-4e356a944778")
+		(property "Reference" "#PWR065"
+			(at 219.71 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddf2a13c-72bf-4b77-917b-cf0a9381100b")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rf-input-fmc:LMK_01801")
 		(at 119.38 76.2 0)
 		(unit 1)
@@ -6323,7 +6022,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LMK01801BISQE-NOPB"
+		(property "MPN" "LMK01801BISQE "
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -6753,7 +6452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:TestPoint_Pad_0.14mmx0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 52.07 0)
 			(effects
 				(font
@@ -7113,7 +6812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:TestPoint_Pad_0.14mmx0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 39.37 0)
 			(effects
 				(font
@@ -7266,7 +6965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:TestPoint_Pad_0.14mmx0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 41.91 0)
 			(effects
 				(font
@@ -7486,6 +7185,109 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 219.71 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3947174-22b8-4eab-9ff0-4aeaa8e9914e")
+		(property "Reference" "J23"
+			(at 219.3926 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 219.3926 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM10617-ND"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f06a15d-3775-4147-9f30-b0b1f8c61b59")
+		)
+		(pin "1"
+			(uuid "c3ef9c8a-bc88-43e0-b186-df3f9af92494")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -7730,6 +7532,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9e6aad7-78d5-4f07-b885-6675c75a614d")
+		(property "Reference" "TP4"
+			(at 256.286 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 256.54 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e50ee72f-1104-433a-9884-3a0a4254c5ef")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 74.93 83.82 270)
 		(unit 1)
@@ -7940,6 +7827,241 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9bd8be1-54cd-47d6-b20c-584b1e0142c5")
+		(property "Reference" "TP3"
+			(at 256.286 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 256.54 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 251.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c3024a0-d4c4-4864-acf3-ca4becfb121f")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebea1ae4-5f8b-4545-a014-8af2db850a4f")
+		(property "Reference" "#PWR066"
+			(at 219.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b308df84-8fd9-4762-95d3-67d6671db740")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 17.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "eecd1560-4c2a-46d4-a1c8-b00922a3c5ec")
+		(property "Reference" "TP1"
+			(at 256.286 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 256.54 19.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 251.46 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 251.46 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e0300fd-1eb6-4c77-beac-b6f2f38d6224")
+		)
+		(instances
+			(project ""
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Ferrite_Small")
 		(at 125.73 39.37 90)
 		(unit 1)
@@ -8070,7 +8192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:TestPoint_Pad_0.14mmx0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 44.45 0)
 			(effects
 				(font
@@ -8155,7 +8277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:TestPoint_Pad_0.14mmx0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 34.29 0)
 			(effects
 				(font

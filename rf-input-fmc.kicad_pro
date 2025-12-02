@@ -612,7 +612,12 @@
         "Controlled"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Controlled",
+        "pattern": "/RF_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

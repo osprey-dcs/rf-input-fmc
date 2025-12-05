@@ -23,18 +23,19 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
       columns:
-        - Row
-        - Quantity Per PCB
         - References
-        - MPN
+        - Quantity Per PCB
         - Value
+        - Manufacturer
+        - MPN
+        - Supplier
+        - Supplier Part Number
         - Footprint
         - Description
-      group_fields: ['MPN']
+        - Datasheet
+      group_fields: ['Manufacturer','MPN']
       parse_value: false
       normalize_values: false
-      # include test points, which are actual components
-      exclude_filter: ''
 
   - name: 'print_sch'
     type: pdf_sch_print
@@ -64,6 +65,23 @@ outputs:
     type: position
     dir: gerber
 
-  - name: 3D
-    type: step
+  - name: STEP
+    type: export_3d
     dir: 3D
+    options:
+      format: "step"
+
+  - name: glTF
+    type: export_3d
+    dir: 3D
+    options:
+      format: "glb"
+      include_silkscreen: true
+      include_pads: true
+      include_tracks: true
+      include_zones: true
+
+  - name: navigate
+    type: navigate_results
+    options:
+      link_from_root: "index.html"

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1.6404442in"
+   height="0.91959494in"
+   viewBox="0 0 41.667282 23.357712"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-3.6114657,-7.0849856)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.536384"
+       id="rect1"
+       width="11.29988"
+       height="22.821327"
+       x="33.710674"
+       y="7.3531775"
+       ry="0.068885304" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.81208px;line-height:0;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.536384"
+       x="16.823803"
+       y="28.827549"
+       id="text1"><tspan
+         style="stroke-width:0.536384"
+         x="16.823803"
+         y="28.827549"
+         id="tspan3" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.4944px;line-height:0;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.27515"
+       x="35.626282"
+       y="17.686659"
+       id="text5"><tspan
+         id="tspan5"
+         style="stroke-width:0.27515"
+         x="35.626282"
+         y="17.686659">FMC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.4944px;line-height:0;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.27515"
+       x="35.552532"
+       y="21.374376"
+       id="text6"><tspan
+         id="tspan6"
+         style="stroke-width:0.27515"
+         x="35.552532"
+         y="21.374376">HPC</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.268192;stroke-dasharray:none"
+       id="path6"
+       cx="5.6576333"
+       cy="26.959047"
+       rx="1.5815681"
+       ry="1.6534575" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="path7"
+       d="m 48.785471,78.807298 -7.253831,4.161699 -7.45312,3.793258 0.02278,-8.362851 0.441501,-8.35122 7.231053,4.201152 z"
+       transform="matrix(0.25180606,0,0,0.25180606,9.5104109,7.2374983)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.141918px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 7.2391898,26.961033 10.8583612,0.01363"
+       id="path8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.107277;stroke-dasharray:none"
+       d="M 8.5899721,28.194359 10.112803,25.946371"
+       id="path9" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.27069px;line-height:0;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.160915;stroke-dasharray:none"
+       x="9.3876448"
+       y="29.572159"
+       id="text9"><tspan
+         id="tspan9"
+         style="stroke-width:0.160915;stroke-dasharray:none"
+         x="9.3876448"
+         y="29.572159">16x</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.203819;stroke-dasharray:none"
+       id="rect9"
+       width="11.26955"
+       height="4.743135"
+       x="16.950731"
+       y="13.785178"
+       ry="0.1024017" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.27069px;line-height:0;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.214554;stroke-dasharray:none"
+       x="17.581923"
+       y="17.099451"
+       id="text10"><tspan
+         id="tspan10"
+         style="stroke-width:0.214554;stroke-dasharray:none"
+         x="17.581923"
+         y="17.099451">LMK01801</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.268192;stroke-dasharray:none"
+       id="path6-0"
+       cx="5.3271298"
+       cy="16.115644"
+       rx="1.5815681"
+       ry="1.6534575" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.141918px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 6.9086759,16.119411 10.0420551,0.02391"
+       id="path10" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.277464;stroke-dasharray:none"
+       id="rect10"
+       width="12.680982"
+       height="3.9790933"
+       x="17.006433"
+       y="7.677043"
+       ry="0.068725161" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.27069px;line-height:0;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.160915;stroke-dasharray:none"
+       x="17.799473"
+       y="10.428003"
+       id="text11"><tspan
+         id="tspan11"
+         style="stroke-width:0.160915;stroke-dasharray:none"
+         x="17.799473"
+         y="10.428003">RMS+ADC</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.160915;stroke-dasharray:none"
+       d="m 11.85318,15.359074 2.247988,0.07252 c 0,0 -1.01522,-5.6562265 2.900629,-5.6562265"
+       id="path11" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.141918px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 29.687415,9.872598 3.702938,0.1203118"
+       id="path12" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.141918px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 21.658937,26.993277 11.586384,0.113338"
+       id="path14" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.218595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 28.208983,16.483418 5.120152,0.103739"
+       id="path15" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.107277;stroke-dasharray:none"
+       d="M 8.3297087,17.192517 9.8525393,14.944528"
+       id="path9-6" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.27069px;line-height:0;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.160915;stroke-dasharray:none"
+       x="9.2724123"
+       y="18.860376"
+       id="text9-4"><tspan
+         id="tspan9-6"
+         style="stroke-width:0.160915;stroke-dasharray:none"
+         x="9.2724123"
+         y="18.860376">2x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.27069px;line-height:0;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.160915;stroke-dasharray:none"
+       x="4.8191543"
+       y="11.588253"
+       id="text15"><tspan
+         id="tspan15"
+         style="stroke-width:0.160915;stroke-dasharray:none"
+         x="4.8191543"
+         y="11.588253">SMA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.27069px;line-height:0;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.160915;stroke-dasharray:none"
+       x="4.7193055"
+       y="23.751619"
+       id="text15-0"><tspan
+         id="tspan15-6"
+         style="stroke-width:0.160915;stroke-dasharray:none"
+         x="4.7193055"
+         y="23.751619">MMCX</tspan></text>
+  </g>
+</svg>

@@ -776,8 +776,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5501.pdf"
+				(at 10.414 -26.924 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2363,7 +2363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/TCP-2-33W+.pdf"
 			(at 91.44 90.17 0)
 			(effects
 				(font
@@ -2974,7 +2974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/TCM2-43X+.pdf"
 			(at 132.08 111.76 0)
 			(effects
 				(font
@@ -3093,7 +3093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adl5501.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5501.pdf"
 			(at 158.75 73.66 0)
 			(effects
 				(font

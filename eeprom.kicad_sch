@@ -1805,7 +1805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6663/AT24C64D-UUM-T.pdf"
 			(at 138.43 101.6 0)
 			(effects
 				(font

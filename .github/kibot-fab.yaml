@@ -64,6 +64,23 @@ outputs:
     type: position
     dir: gerber
 
-  - name: 3D
-    type: step
+  - name: STEP
+    type: export_3d
     dir: 3D
+    options:
+      format: "step"
+
+  - name: glTF
+    type: export_3d
+    dir: 3D
+    options:
+      format: "glb"
+      include_silkscreen: true
+      include_pads: true
+      include_tracks: true
+      include_zones: true
+
+  - name: navigate
+    type: navigate_results
+    options:
+      link_from_root: "index.html"

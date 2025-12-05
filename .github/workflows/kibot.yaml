@@ -12,7 +12,6 @@ jobs:
       with:
         dir: output
         config: .github/kibot-check.yaml
-        verbose: 1
 
   fab:
     name: Fab Outputs
@@ -38,11 +37,15 @@ jobs:
         compression-level: 9
         if-no-files-found: 'error'
         path: |
-          output/**/*.drl
-          output/**/*.gbr*
-          output/**/*.d356
-          output/**/*.pos
-          output/**/*bom*
+          output/*report.txt
+          output/*.csv
+          output/gerber/*
+    - name: Upload gh-pages preview
+      id: ghpages
+      uses: actions/upload-pages-artifact@v3
+      with:
+        retention-days: 7
+        path: output/
 
   diff:
     name: Difference
@@ -69,3 +72,23 @@ jobs:
         compression-level: 9
         if-no-files-found: 'error'
         path: diff
+
+  publish:
+    runs-on: ubuntu-latest
+
+    if: github.ref=='refs/heads/main'
+    needs: fab
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.ghpages.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

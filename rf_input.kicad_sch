@@ -2720,7 +2720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -2738,7 +2738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1000PF 50V C0G/NP0 0603"
+		(property "Description" ""
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -2747,7 +2747,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D"
+		(property "MPN" ""
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -2756,7 +2756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" ""
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -2765,7 +2765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier" ""
 			(at 80.01 97.79 90)
 			(effects
 				(font
@@ -2774,7 +2774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "490-1451-1-ND"
+		(property "Supplier Part Number" ""
 			(at 80.01 97.79 90)
 			(effects
 				(font
@@ -3274,7 +3274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 0.5% 1/16W 0603"
+		(property "Description" ""
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -3301,7 +3301,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RR0816P-101-D"
+		(property "MPN" ""
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -3310,7 +3310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" ""
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -3319,7 +3319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier" ""
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -3328,7 +3328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "RR08P100DCT-ND"
+		(property "Supplier Part Number" ""
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -3383,7 +3383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -3401,7 +3401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1000PF 50V C0G/NP0 0603"
+		(property "Description" ""
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -3410,7 +3410,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D"
+		(property "MPN" ""
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -3419,7 +3419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" ""
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -3428,7 +3428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier" ""
 			(at 167.64 123.19 90)
 			(effects
 				(font
@@ -3437,7 +3437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "490-1451-1-ND"
+		(property "Supplier Part Number" ""
 			(at 167.64 123.19 90)
 			(effects
 				(font
@@ -3601,7 +3601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -3619,7 +3619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 49.9 OHM 0.1% 0.21W 0603"
+		(property "Description" ""
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -3628,7 +3628,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TNPW060349R9BEEA"
+		(property "MPN" ""
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -3637,7 +3637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" ""
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -3646,7 +3646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier" ""
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -3655,7 +3655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "541-2031-1-ND"
+		(property "Supplier Part Number" ""
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -3819,7 +3819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.64 115.57 0)
 			(effects
 				(font
@@ -3837,7 +3837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1000PF 50V C0G/NP0 0603"
+		(property "Description" ""
 			(at 167.64 115.57 0)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D"
+		(property "MPN" ""
 			(at 167.64 115.57 0)
 			(effects
 				(font
@@ -3855,7 +3855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" ""
 			(at 167.64 115.57 0)
 			(effects
 				(font
@@ -3864,7 +3864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier" ""
 			(at 167.64 115.57 90)
 			(effects
 				(font
@@ -3873,7 +3873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "490-1451-1-ND"
+		(property "Supplier Part Number" ""
 			(at 167.64 115.57 90)
 			(effects
 				(font
@@ -3926,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -3944,7 +3944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 24.9 OHM 0.1% 0.21W 0603"
+		(property "Description" ""
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -3953,7 +3953,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TNPW060324R9BEEA"
+		(property "MPN" ""
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -3962,7 +3962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" ""
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -3971,7 +3971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier" ""
 			(at 137.16 83.82 90)
 			(effects
 				(font
@@ -3980,7 +3980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "541-2009-1-ND"
+		(property "Supplier Part Number" ""
 			(at 137.16 83.82 90)
 			(effects
 				(font

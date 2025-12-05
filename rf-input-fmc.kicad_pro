@@ -198,6 +198,7 @@
       ],
       "track_widths": [
         0.0,
+        0.14,
         0.175,
         0.2,
         0.25,
@@ -737,7 +738,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

@@ -364,16 +364,6 @@
 		)
 		(uuid "44e7610f-0d77-4893-8dc5-1efa517764a4")
 	)
-	(bus
-		(pts
-			(xy 166.37 102.87) (xy 176.53 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d438bdb-29e6-45e6-ad56-2c69bdb8e8ad")
-	)
 	(wire
 		(pts
 			(xy 49.53 50.8) (xy 49.53 53.34)
@@ -443,6 +433,16 @@
 			(type default)
 		)
 		(uuid "71422d77-a85d-4d00-a453-90c52f4d81c0")
+	)
+	(bus
+		(pts
+			(xy 166.37 102.87) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa5de4e-c9bc-49e8-8f0e-61a688f63269")
 	)
 	(bus
 		(pts
@@ -631,111 +631,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 50.8 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "679fe98f-12c2-4bec-b372-7a4c870072e1")
-		(property "Reference" "J2"
-			(at 51.1174 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MMCX"
-			(at 51.1174 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MMCX-J-P-H-ST-TH1"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samtec Inc."
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec6dca42-194f-4673-8d4c-13c96cca36a0")
-		)
-		(pin "1"
-			(uuid "4e095ab5-f63f-45f5-8077-491fcb3e8edd")
-		)
-		(instances
-			(project "rf-input-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 92.71 0)
 		(unit 1)
@@ -820,7 +715,7 @@
 				)
 			)
 		)
-		(property "Value" "MMCX"
+		(property "Value" "SMA"
 			(at 49.8474 41.91 0)
 			(effects
 				(font
@@ -828,7 +723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+		(property "Footprint" "rf-input-fmc:SMA_Amphenol_901-144_Vertical"
 			(at 49.53 45.72 0)
 			(effects
 				(font
@@ -846,7 +741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+		(property "Description" "CONN SMA JACK STR 50 OHM PCB"
 			(at 49.53 45.72 0)
 			(effects
 				(font
@@ -855,7 +750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MMCX-J-P-H-ST-TH1"
+		(property "MPN" "901-144-8RFX"
 			(at 49.53 45.72 0)
 			(effects
 				(font
@@ -864,7 +759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samtec Inc."
+		(property "Manufacturer" "Amphenol RF"
 			(at 49.53 45.72 0)
 			(effects
 				(font
@@ -882,7 +777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "SAM10617-ND"
+		(property "Supplier Part Number" "ARFX1231-ND"
 			(at 49.53 45.72 0)
 			(effects
 				(font
@@ -901,6 +796,111 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 50.8 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4e397f0-1afe-40dc-a34f-0d068c7cefd9")
+		(property "Reference" "J2"
+			(at 51.1174 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMA"
+			(at 51.1174 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rf-input-fmc:SMA_Amphenol_901-144_Vertical"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN SMA JACK STR 50 OHM PCB"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "901-144-8RFX"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol RF"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "ARFX1231-ND"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69d2e663-4b3d-40cd-a8c0-bc0cf1b835c1")
+		)
+		(pin "1"
+			(uuid "35effcbb-2e27-4bff-a846-a5883ead7960")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1195,49 +1195,9 @@
 				(justify left)
 			)
 		)
-		(pin "FMC_CLK0_M2C{DP}" input
-			(at 176.53 102.87 180)
-			(uuid "71afeaf0-a678-4860-b249-66e01f5743de")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FMC_CLK1_M2C{DP}" input
-			(at 176.53 100.33 180)
-			(uuid "8b102b1a-c396-40d6-9060-099f59356313")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "FMC_CLK_Control{uW}" bidirectional
 			(at 176.53 71.12 180)
 			(uuid "5ba94caf-667f-4e0e-b9a4-8b23811f47f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FMC_GBTCLK0{DP}" input
-			(at 176.53 97.79 180)
-			(uuid "231f61de-5d3e-4d7e-afde-930255d9d773")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FMC_GBTCLK1{DP}" input
-			(at 176.53 105.41 180)
-			(uuid "341c1820-f0df-4d63-b367-f15e9a67566a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,6 +1218,46 @@
 		(pin "FMC_ADC_Control{DSPI}" bidirectional
 			(at 176.53 60.96 180)
 			(uuid "ce7d5978-420e-4944-a96b-b226b6311bed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FMC_GBTCLK0{DP}" input
+			(at 176.53 102.87 180)
+			(uuid "ece8642c-0de7-4572-bdd9-079d4cf77815")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FMC_GBTCLK1{DP}" input
+			(at 176.53 100.33 180)
+			(uuid "a9fff20d-df88-4fe0-876a-34f00ba27a56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FMC_CLK0_M2C{DP}" input
+			(at 176.53 97.79 180)
+			(uuid "ba6957e9-b7a1-4d41-954b-dd601552f653")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FMC_CLK1_M2C{DP}" input
+			(at 176.53 105.41 180)
+			(uuid "e333ef67-dc8a-4a32-8fb7-1e486ddde435")
 			(effects
 				(font
 					(size 1.27 1.27)

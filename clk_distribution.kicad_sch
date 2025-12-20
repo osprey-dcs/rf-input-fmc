@@ -12,6 +12,167 @@
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_Coaxial_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial_Small"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_1_1"
+				(arc
+					(start 1.3484 0.0039)
+					(mid 0.327 -1.308)
+					(end -1.1916 -0.6311)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.1916 0.6311)
+					(mid 0.327 1.3081)
+					(end 1.3484 -0.0039)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2060,10 +2221,6 @@
 		(uuid "bf53786e-47f6-4ab4-ba6c-028bb8028f53")
 	)
 	(no_connect
-		(at 162.56 144.78)
-		(uuid "c3fa482a-d8b3-4bc1-9569-6bc4c48e45c5")
-	)
-	(no_connect
 		(at 162.56 106.68)
 		(uuid "c9efded1-f98d-45ca-890b-0e72e59ff528")
 	)
@@ -2102,7 +2259,7 @@
 		(uuid "1924eacb-e0d5-4b3d-971f-06a4fb383a26")
 	)
 	(bus_entry
-		(at 91.44 113.03)
+		(at 91.44 106.68)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2129,7 +2286,7 @@
 		(uuid "4a9d9e27-b56f-4188-893f-acfc36a21b9a")
 	)
 	(bus_entry
-		(at 91.44 109.22)
+		(at 91.44 115.57)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2156,7 +2313,7 @@
 		(uuid "ac943077-18cc-4051-b1ae-707b6490eab8")
 	)
 	(bus_entry
-		(at 91.44 106.68)
+		(at 91.44 113.03)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2201,7 +2358,7 @@
 		(uuid "ed9c3d14-3573-436f-b276-8ecacbbd5a98")
 	)
 	(bus_entry
-		(at 91.44 115.57)
+		(at 91.44 109.22)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2310,7 +2467,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 113.03) (xy 91.44 113.03)
+			(xy 86.36 106.68) (xy 91.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2400,7 +2557,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 113.03) (xy 91.44 115.57)
+			(xy 91.44 106.68) (xy 91.44 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2540,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 113.03) (xy 116.84 113.03)
+			(xy 93.98 106.68) (xy 116.84 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 116.84 110.49)
+			(xy 93.98 104.14) (xy 116.84 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2600,13 +2757,23 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 106.68) (xy 91.44 106.68)
+			(xy 86.36 113.03) (xy 91.44 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47d71d0f-5e1d-4aa9-89f3-0a61a66ec3dd")
+	)
+	(wire
+		(pts
+			(xy 196.85 147.32) (xy 196.85 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b98881-18fa-4220-ad14-084046e3080d")
 	)
 	(wire
 		(pts
@@ -2758,6 +2925,16 @@
 		)
 		(uuid "614c1ce1-6548-4107-b29e-64233f5506ed")
 	)
+	(wire
+		(pts
+			(xy 162.56 144.78) (xy 172.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e41576-8244-471e-8d67-7ded2aa92a02")
+	)
 	(bus
 		(pts
 			(xy 190.5 76.2) (xy 190.5 78.74)
@@ -2790,7 +2967,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 106.68) (xy 91.44 109.22)
+			(xy 91.44 113.03) (xy 91.44 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2970,6 +3147,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 144.78) (xy 193.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12f924e-4509-41a9-b4d6-21e041d2fee8")
+	)
+	(wire
+		(pts
 			(xy 119.38 54.61) (xy 119.38 57.15)
 		)
 		(stroke
@@ -2990,7 +3177,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 116.84 104.14)
+			(xy 177.8 144.78) (xy 187.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b354715e-3dcb-4102-8a94-5070fc899bd9")
+	)
+	(wire
+		(pts
+			(xy 93.98 110.49) (xy 116.84 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3287,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 106.68) (xy 116.84 106.68)
+			(xy 93.98 113.03) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3409,7 +3606,7 @@
 		(uuid "13ff6f63-b821-4aa9-ad9c-035c31216597")
 	)
 	(label "RF_CLKIN_0.N"
-		(at 97.79 106.68 0)
+		(at 97.79 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3489,7 +3686,7 @@
 		(uuid "5beea1aa-80a6-4965-815f-54bb5fde3738")
 	)
 	(label "RF_CLKIN_1.N"
-		(at 97.79 113.03 0)
+		(at 97.79 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3739,7 +3936,7 @@
 		(uuid "d64b0202-595d-48ed-8416-8f6efb45ee9d")
 	)
 	(label "RF_CLKIN_0.P"
-		(at 97.79 104.14 0)
+		(at 97.79 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3749,7 +3946,7 @@
 		(uuid "e103793a-e822-45c9-a04a-20d1522c16f7")
 	)
 	(label "RF_CLKIN_1.P"
-		(at 97.79 110.49 0)
+		(at 97.79 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3854,7 +4051,7 @@
 	)
 	(hierarchical_label "RF_CLKIN_0{DP}"
 		(shape input)
-		(at 86.36 106.68 180)
+		(at 86.36 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3865,7 +4062,7 @@
 	)
 	(hierarchical_label "RF_CLKIN_1{DP}"
 		(shape input)
-		(at 86.36 113.03 180)
+		(at 86.36 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4453,6 +4650,109 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 190.5 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f2ffb24-1a4e-420a-a5c4-78484095b48d")
+		(property "Reference" "J20"
+			(at 193.04 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 186.69 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "SAM10617-ND"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a525055d-c923-44c6-9769-ea418696ad1f")
+		)
+		(pin "2"
+			(uuid "2e37a873-05c7-48a5-ae08-be324156a542")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -6330,6 +6630,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 175.26 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bc5b71e-5163-4450-924c-8adab101081d")
+		(property "Reference" "R28"
+			(at 173.482 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 172.72 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a95cd35-18a0-4d55-bcd0-a58c68d4a02d")
+		)
+		(pin "2"
+			(uuid "02d580e7-70f0-4384-98cb-318484c9aefc")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 251.46 46.99 270)
 		(unit 1)
@@ -6599,6 +7004,71 @@
 			(project "rf-input-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6af72ec-ace2-4c7a-8de2-0f312301d12e")
+		(property "Reference" "#PWR065"
+			(at 196.85 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "462c9f54-f162-494b-a786-a71db1330ea3")
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e5510460-d5a9-4d09-b8a1-20d3075b72db"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)

@@ -7,7 +7,7 @@
 
 | **parameter**            | value                                 |
 | ------------------------ | ------------------------------------- |
-| connector type           | Samtec Isorate IP5-02-01-L-S-RA1-L-TR |
+| connector type           | SMA-F                                 |
 | Targeted Input Bandwidth | 50MHz- 200Mhz                         |
 | Absolute Input Bandwidth | 50MHz- 3000Mhz                        |
 | Input Range              | -5 to +20 dBm                         |

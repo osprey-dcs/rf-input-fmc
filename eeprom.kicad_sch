@@ -1248,7 +1248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 105.41 99.06 0)
 			(effects
 				(font
@@ -1353,7 +1353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 151.13 90.17 0)
 			(effects
 				(font
@@ -1814,7 +1814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 167.64 93.98 0)
 			(effects
 				(font
@@ -1917,7 +1917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -2020,7 +2020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -2228,7 +2228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 175.26 93.98 0)
 			(effects
 				(font

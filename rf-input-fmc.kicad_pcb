@@ -563,7 +563,7 @@
 				)
 			)
 		)
-		(property "MPN" "BLM18AG121SN1D "
+		(property "MPN" "BLM18AG121SN1D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -576,7 +576,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata "
+		(property "Manufacturer" "Murata"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4146,7 +4146,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4661,7 +4661,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4900,7 +4900,7 @@
 				)
 			)
 		)
-		(property "MPN" "BLM18AG121SN1D "
+		(property "MPN" "BLM18AG121SN1D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4913,7 +4913,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata "
+		(property "Manufacturer" "Murata"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8464,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8716,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10279,7 +10279,7 @@
 				)
 			)
 		)
-		(property "MPN" "BLM18AG121SN1D "
+		(property "MPN" "BLM18AG121SN1D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10292,7 +10292,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata "
+		(property "Manufacturer" "Murata"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14398,7 +14398,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15891,7 +15891,7 @@
 				)
 			)
 		)
-		(property "MPN" "BLM18AG121SN1D "
+		(property "MPN" "BLM18AG121SN1D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15904,7 +15904,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata "
+		(property "Manufacturer" "Murata"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17881,7 +17881,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19844,7 +19844,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23374,7 +23374,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23936,7 +23936,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24816,7 +24816,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25055,7 +25055,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07475RL "
+		(property "MPN" "RC0603FR-07475RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25068,7 +25068,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26982,7 +26982,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07475RL "
+		(property "MPN" "RC0603FR-07475RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26995,7 +26995,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29329,7 +29329,7 @@
 				)
 			)
 		)
-		(property "MPN" "BLM18AG121SN1D "
+		(property "MPN" "BLM18AG121SN1D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29342,7 +29342,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata "
+		(property "Manufacturer" "Murata"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32730,7 +32730,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33942,7 +33942,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo "
+		(property "Manufacturer" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

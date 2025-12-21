@@ -5,8 +5,8 @@
 *.gbr*
 *.rpt
 *.bak
+*-bak
 *.gbr
 *.zip
 *.lck
 ~*
-*.bak

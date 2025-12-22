@@ -6674,7 +6674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 49.9 OHM 1% 1/16W 0402"
 			(at 175.26 144.78 0)
 			(effects
 				(font
@@ -6683,7 +6683,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0749R9L"
 			(at 175.26 144.78 0)
 			(effects
 				(font
@@ -6692,7 +6692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 175.26 144.78 0)
 			(effects
 				(font

@@ -34595,7 +34595,7 @@
 				)
 			)
 		)
-		(property "MPN" "LMK01801BISQE-NOPB"
+		(property "MPN" "LMK01801BISQE/NOPB"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")

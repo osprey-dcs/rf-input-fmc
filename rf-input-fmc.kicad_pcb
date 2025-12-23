@@ -3232,7 +3232,7 @@
 			(pinfunction "ThermalPad")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "362d0eb7-ff1e-4835-8173-4c6a16fee208")
+			(uuid "3f9bcaf1-820e-4772-8902-19650fa519ce")
 		)
 		(pad "17" smd rect
 			(at 0 0 270)
@@ -3243,7 +3243,7 @@
 			(pinfunction "ThermalPad")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "362d0eb7-ff1e-4835-8173-4c6a16fee208")
+			(uuid "af395eb3-410c-4713-8cec-e885c14dad2d")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step"
@@ -3925,7 +3925,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "57d87486-d06d-4d44-a2fe-230672819057")
+			(uuid "b955e37f-abb0-412c-a533-86f2c1df296b")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -2.54)
@@ -3936,7 +3936,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "57d87486-d06d-4d44-a2fe-230672819057")
+			(uuid "c1bab5e1-a702-4a11-8479-fa9cde756adf")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 2.54)
@@ -3947,7 +3947,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "57d87486-d06d-4d44-a2fe-230672819057")
+			(uuid "e286547d-4a84-40e2-a289-4fab3fd77a1b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.step"
@@ -6975,7 +6975,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "3557d7a0-9500-4300-900f-207c27370e89")
+			(uuid "6736045e-77cd-4873-a814-0d25585ecd12")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27 90)
@@ -6986,7 +6986,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "3557d7a0-9500-4300-900f-207c27370e89")
+			(uuid "ffd357ea-25d5-46de-b539-f4a41805d853")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27 90)
@@ -6997,7 +6997,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "3557d7a0-9500-4300-900f-207c27370e89")
+			(uuid "82a91322-a3c9-44e4-9d6e-62c76c286364")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -9561,7 +9561,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "01679902-6bda-4917-9776-005f39d6b732")
+			(uuid "51faac63-50b9-441e-b9cf-92a1ee3626d9")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -9572,7 +9572,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "01679902-6bda-4917-9776-005f39d6b732")
+			(uuid "4735b5cd-0dac-4116-a84d-0f1fa591ab46")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -9583,7 +9583,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "01679902-6bda-4917-9776-005f39d6b732")
+			(uuid "da4bbbc5-e52a-47fd-a790-a7a670197263")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -11760,7 +11760,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "b46a1105-6d68-4953-a6cf-4ed301e51f81")
+			(uuid "b0bc408a-f021-46f6-9395-84ed39ac1cda")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -11771,7 +11771,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "b46a1105-6d68-4953-a6cf-4ed301e51f81")
+			(uuid "387c26cd-7a44-49c1-8d20-abebcb3b9a24")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -11782,7 +11782,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "b46a1105-6d68-4953-a6cf-4ed301e51f81")
+			(uuid "ffbe4eed-8de6-4018-948c-f2100febbda3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -12650,7 +12650,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "0beb2cbc-4d65-41cc-8aa3-eb55b4e83db4")
+			(uuid "9d1aedcb-f849-4dcf-90ec-ad32f9d3d505")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -2.54 180)
@@ -12661,7 +12661,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "0beb2cbc-4d65-41cc-8aa3-eb55b4e83db4")
+			(uuid "2a95a217-0fc9-432e-9a4c-ff5edf7ad307")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 2.54 180)
@@ -12672,7 +12672,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "0beb2cbc-4d65-41cc-8aa3-eb55b4e83db4")
+			(uuid "55f98bc3-3c47-4065-8b15-77775fb35685")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.step"
@@ -14133,7 +14133,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "d96ee624-f7ee-4598-9b88-4949f2561ec4")
+			(uuid "0b222880-11a5-4433-9849-089b48b2bbe0")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -14144,7 +14144,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "d96ee624-f7ee-4598-9b88-4949f2561ec4")
+			(uuid "95b75577-3a2a-43aa-ac7d-81af2bf212f8")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -14155,7 +14155,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "d96ee624-f7ee-4598-9b88-4949f2561ec4")
+			(uuid "dce31aea-c42d-498c-baea-dcacb13d18fb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -14947,7 +14947,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "7fe8c123-cc26-41cf-83e6-488995f31baa")
+			(uuid "d3555a86-38a3-4352-9fe4-6c4f9623802d")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -14958,7 +14958,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "7fe8c123-cc26-41cf-83e6-488995f31baa")
+			(uuid "8f91e19b-c7eb-4c33-8853-830f19ecf5e1")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -14969,7 +14969,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "7fe8c123-cc26-41cf-83e6-488995f31baa")
+			(uuid "5e92e0da-f5b9-4828-af44-05561d1486c7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -15639,7 +15639,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "846364b4-6c4f-42f3-a32c-c4e207c041ab")
+			(uuid "32fd8da1-ff6a-4190-b98f-5b8482e66431")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -15650,7 +15650,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "846364b4-6c4f-42f3-a32c-c4e207c041ab")
+			(uuid "a3d4c083-0baa-42bd-8882-1f7e11ba8c05")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -15661,7 +15661,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "846364b4-6c4f-42f3-a32c-c4e207c041ab")
+			(uuid "65db39ca-7979-4485-93af-71e0233d88cf")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -20130,7 +20130,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "931eba6e-a516-439f-966a-0957aa5946ed")
+			(uuid "a1c784c0-63a0-4afd-9189-7925e0b75d59")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -20141,7 +20141,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "931eba6e-a516-439f-966a-0957aa5946ed")
+			(uuid "410bef72-237d-4f78-ad87-bbc2c557b9a6")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -20152,7 +20152,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "931eba6e-a516-439f-966a-0957aa5946ed")
+			(uuid "77fd81d0-1909-4a35-ba31-23a69da4f558")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -20692,7 +20692,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "37bc24a6-1454-4302-be31-afc444019038")
+			(uuid "7828a220-3ea1-4641-873a-81844be4bd2f")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -20703,7 +20703,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "37bc24a6-1454-4302-be31-afc444019038")
+			(uuid "9c1dc50d-11bc-46e8-8101-7dbf32cee188")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -20714,7 +20714,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "37bc24a6-1454-4302-be31-afc444019038")
+			(uuid "b1b99e88-9f9c-4b5d-bbb4-737aaa13e325")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -22134,7 +22134,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "db02bc5d-dc65-4c3b-bfd9-6297b3e56df5")
+			(uuid "cc7652c7-a821-48a1-afb5-97246f39b57b")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -22145,7 +22145,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "db02bc5d-dc65-4c3b-bfd9-6297b3e56df5")
+			(uuid "c2bd3313-e0fe-44c1-8bf0-1265a62ed03a")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -22156,7 +22156,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "db02bc5d-dc65-4c3b-bfd9-6297b3e56df5")
+			(uuid "838f5c7f-57dc-4dfb-a7fb-cae4bd557dc2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -22990,7 +22990,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "9f152365-7d0b-4b4a-9738-1027fb552aaa")
+			(uuid "3760ca1e-702c-49f5-9af9-2248e11ebf00")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -23001,7 +23001,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "9f152365-7d0b-4b4a-9738-1027fb552aaa")
+			(uuid "a5ee3b5f-c28d-4fb4-8af7-3454d0a93fc2")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -23012,7 +23012,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "9f152365-7d0b-4b4a-9738-1027fb552aaa")
+			(uuid "57f96f1e-3f90-493b-bf41-a8d646344c36")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -23970,7 +23970,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "c32b6f30-e781-453b-be1b-f1823fb9493b")
+			(uuid "73fa0652-4ea5-443b-b93b-867bc2b65942")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -23981,7 +23981,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "c32b6f30-e781-453b-be1b-f1823fb9493b")
+			(uuid "dd6749e0-906e-4e07-9cc7-b182308d98b2")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -23992,7 +23992,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "c32b6f30-e781-453b-be1b-f1823fb9493b")
+			(uuid "54e029f6-02f0-4cf3-8650-dd6fda7df6d9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -28074,7 +28074,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "7ccfad83-9f4e-4f69-a91a-f8892706bf47")
+			(uuid "95720edb-d599-45c9-835f-a4e6c7914ba8")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -28085,7 +28085,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "7ccfad83-9f4e-4f69-a91a-f8892706bf47")
+			(uuid "b5f8b74e-4412-492b-a05e-84379711f76b")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -28096,7 +28096,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "7ccfad83-9f4e-4f69-a91a-f8892706bf47")
+			(uuid "092a63e4-7c2f-4f71-9ce2-f5c204ceb257")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -29863,7 +29863,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "66d4c55e-6c7a-40b7-ba98-c8cae174bbd3")
+			(uuid "ebc16e3e-2959-4a48-b5cd-e34957b587d3")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27 270)
@@ -29874,7 +29874,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "66d4c55e-6c7a-40b7-ba98-c8cae174bbd3")
+			(uuid "87782ba8-953f-49d9-941c-2c76a0e2fed9")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27 270)
@@ -29885,7 +29885,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "66d4c55e-6c7a-40b7-ba98-c8cae174bbd3")
+			(uuid "eaf35db6-7c4d-4aa7-bfdf-ec3c87d11f71")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -31815,7 +31815,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "c4cb4697-181c-4c36-945b-caf11a001a6d")
+			(uuid "e242efd9-fdae-41a2-93da-c6cde1c3d42a")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -31826,7 +31826,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "c4cb4697-181c-4c36-945b-caf11a001a6d")
+			(uuid "560c6cd2-b80c-4af7-9d4a-6b2ca58aa145")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -31837,7 +31837,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "c4cb4697-181c-4c36-945b-caf11a001a6d")
+			(uuid "0a80a2e5-f139-4447-a626-de8ffe1c6ac7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -32291,7 +32291,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "d4e8fc2b-8fd5-4db0-b4ef-46cd6f4baee9")
+			(uuid "d3aef865-dc8f-4a23-bcb5-6db06edad94f")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -32302,7 +32302,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "d4e8fc2b-8fd5-4db0-b4ef-46cd6f4baee9")
+			(uuid "fa425f4a-7ad5-48e9-9a01-451667b39edb")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -32313,7 +32313,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "d4e8fc2b-8fd5-4db0-b4ef-46cd6f4baee9")
+			(uuid "139c04f6-15b2-4acd-bd88-ee29d010dc57")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -32601,7 +32601,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "2022575f-acdd-43ff-a489-6775436b3e8f")
+			(uuid "fbba379f-c830-4a2c-8abb-bd2791ec4170")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -32612,7 +32612,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "2022575f-acdd-43ff-a489-6775436b3e8f")
+			(uuid "6155861e-2e35-4b8e-b786-f15aeea05fab")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -32623,7 +32623,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "2022575f-acdd-43ff-a489-6775436b3e8f")
+			(uuid "fdeb7a7b-15c4-4053-b64f-c41364ac8e81")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -34001,7 +34001,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "5ad1c07c-f4fe-4e05-b5cb-71361ce10fa5")
+			(uuid "715e45f0-11dd-484a-867d-64c9d449637f")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -1.27)
@@ -34012,7 +34012,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "5ad1c07c-f4fe-4e05-b5cb-71361ce10fa5")
+			(uuid "5647a0e9-017e-4567-ba6d-096c271c0ffb")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 1.27)
@@ -34023,7 +34023,7 @@
 			(net 3 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "5ad1c07c-f4fe-4e05-b5cb-71361ce10fa5")
+			(uuid "101dad8d-9bc3-4164-bf9d-d7a42f9262c9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/MMCX_Molex_73415-1471_Vertical.step"
@@ -35580,7 +35580,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "dff15b1a-42ff-4a15-b8c7-855409d533fd")
 		)
 		(pad "49" thru_hole circle
 			(at -2 -1 45)
@@ -35592,7 +35592,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "d7e3d3a5-2f4c-41a1-8fc8-a29a69c4f302")
 		)
 		(pad "49" thru_hole circle
 			(at -2 1 45)
@@ -35604,7 +35604,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "c40f7412-4cfb-4ab6-9264-96a5c9163bf2")
 		)
 		(pad "49" thru_hole circle
 			(at -2 2 45)
@@ -35616,7 +35616,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "42099cdf-9d48-4d7c-8292-5098a3375499")
 		)
 		(pad "49" thru_hole circle
 			(at -1 -2 45)
@@ -35628,7 +35628,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "a6bcead5-fa85-4932-8a3c-810ad16afe55")
 		)
 		(pad "49" thru_hole circle
 			(at -1 -1 45)
@@ -35640,7 +35640,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "236b0da9-abd7-4b3a-96ac-8531fa19e201")
 		)
 		(pad "49" thru_hole circle
 			(at -1 0 45)
@@ -35652,7 +35652,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "67fa3145-e8b5-4a40-997b-c18a96d68729")
 		)
 		(pad "49" thru_hole circle
 			(at -1 1 45)
@@ -35664,7 +35664,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "bcb6a3dd-400c-43ab-8c99-bbd39fcb33c6")
 		)
 		(pad "49" thru_hole circle
 			(at -1 2 45)
@@ -35676,7 +35676,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "b0e77838-659e-4658-a1c9-8787da535851")
 		)
 		(pad "49" thru_hole circle
 			(at 0 -2.000001 45)
@@ -35688,7 +35688,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "06c3473a-b92c-4280-a152-e1fabe96b435")
 		)
 		(pad "49" thru_hole circle
 			(at 0 -1 45)
@@ -35700,7 +35700,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "7a8c2a63-c9cf-4677-8c58-43801df78659")
 		)
 		(pad "49" thru_hole circle
 			(at 0 0 45)
@@ -35712,7 +35712,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "f53fbaab-01c4-49d7-8095-300a51b13d6f")
 		)
 		(pad "49" smd rect
 			(at 0 0 45)
@@ -35723,7 +35723,7 @@
 			(pinfunction "DAP")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "1638304a-8842-465c-a1ef-b060840b3fe5")
 		)
 		(pad "49" smd rect
 			(at 0 0 45)
@@ -35734,7 +35734,7 @@
 			(pinfunction "DAP")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "6fda11de-b646-4979-b4d7-2d4060829d95")
 		)
 		(pad "49" thru_hole circle
 			(at 0 1 45)
@@ -35746,7 +35746,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "2d6cc8b4-2519-4f64-860e-1ce4d59b7d34")
 		)
 		(pad "49" thru_hole circle
 			(at 0 2.000001 45)
@@ -35758,7 +35758,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "87e62465-9fcc-4478-8618-6a2216ad5c02")
 		)
 		(pad "49" thru_hole circle
 			(at 1 -2 45)
@@ -35770,7 +35770,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "966e6cd3-8105-47b7-ab73-4e63884eced6")
 		)
 		(pad "49" thru_hole circle
 			(at 1 -1 45)
@@ -35782,7 +35782,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "76c99a0e-fc13-406a-8a6b-2d2fcf0f71f6")
 		)
 		(pad "49" thru_hole circle
 			(at 1 0 45)
@@ -35794,7 +35794,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "51cc0767-acd4-4d47-8c28-cd5d0019d12b")
 		)
 		(pad "49" thru_hole circle
 			(at 1 1 45)
@@ -35806,7 +35806,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "4b76ddec-b754-402e-a943-4c8e2ea09380")
 		)
 		(pad "49" thru_hole circle
 			(at 1 2 45)
@@ -35818,7 +35818,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "3b1b1cd0-c87a-4a27-a1f5-073daefd6a15")
 		)
 		(pad "49" thru_hole circle
 			(at 2 -2 45)
@@ -35830,7 +35830,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "2afc02b8-63b7-478b-9b0a-adf9bf0652c1")
 		)
 		(pad "49" thru_hole circle
 			(at 2 -1 45)
@@ -35842,7 +35842,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "b697db16-2daf-4fde-9272-ee6bbe20f342")
 		)
 		(pad "49" thru_hole circle
 			(at 2 1 45)
@@ -35854,7 +35854,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "5a4505e8-a366-4de0-aa1b-eb4f922c5cea")
 		)
 		(pad "49" thru_hole circle
 			(at 2 2 45)
@@ -35866,7 +35866,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "64649489-7edd-4bad-bca6-bf5998449af5")
 		)
 		(pad "49" thru_hole circle
 			(at 2.000001 0 45)
@@ -35878,7 +35878,7 @@
 			(net 3 "GND")
 			(pinfunction "DAP")
 			(pintype "passive")
-			(uuid "9309bc31-a70f-4a88-82d6-0ba3b6b37694")
+			(uuid "9693a67c-f0f3-4512-a028-8a1feecb8e79")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGZ0048A_VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.step"

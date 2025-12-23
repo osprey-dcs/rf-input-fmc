@@ -5579,24 +5579,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 45.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 45.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "912e0f4c-e7a2-4a49-a0f0-c5e3a763acfe")
 		)
@@ -5674,24 +5656,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 45.72 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 45.72 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
 			(at 45.72 120.65 0)
 			(effects
 				(font
@@ -5844,24 +5808,6 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 66.04 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 66.04 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "Y1104CT-ND"
 			(at 66.04 148.59 0)
 			(effects
 				(font
@@ -6062,24 +6008,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 45.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 45.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "06de3308-ee56-455d-b7d7-b0bdc25e17e3")
 		)
@@ -6165,24 +6093,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 45.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 45.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "658c9751-d069-465a-8c90-59e63b48ecfe")
 		)
@@ -6260,24 +6170,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 45.72 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 45.72 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
 			(at 45.72 113.03 0)
 			(effects
 				(font
@@ -6440,24 +6332,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 147.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-14514-1-ND"
-			(at 147.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "950e3580-6510-4e98-b5e2-74f4585185c7")
 		)
@@ -6538,24 +6412,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 137.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 137.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-14514-1-ND"
 			(at 137.16 48.26 0)
 			(effects
 				(font
@@ -6651,24 +6507,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "541-TNPW120650R0BEENCT-ND"
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "158bbafc-8d95-4ae1-aa6f-6303a1953079")
 		)
@@ -6746,24 +6584,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
 			(at 45.72 116.84 0)
 			(effects
 				(font
@@ -6860,24 +6680,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 127 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-13248-1-ND"
-			(at 127 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b4f34f92-6743-4884-bbce-f61fe71e3b03")
 		)
@@ -6955,24 +6757,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 45.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 45.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
 			(at 45.72 76.2 0)
 			(effects
 				(font
@@ -7066,24 +6850,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 45.72 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 45.72 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f36416ec-5162-4385-a8d0-915441036776")
 		)
@@ -7163,24 +6929,6 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 66.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 66.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "Y1104CT-ND"
 			(at 66.04 92.71 0)
 			(effects
 				(font
@@ -7311,24 +7059,6 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "296-36050-5-ND"
 			(at 149.86 106.68 0)
 			(effects
 				(font
@@ -7560,24 +7290,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 45.72 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 45.72 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6a4df622-a6df-4722-b922-86d0f054e4c4")
 		)
@@ -7655,24 +7367,6 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 92.71 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 92.71 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "Y1101CT-ND"
 			(at 92.71 71.12 90)
 			(effects
 				(font
@@ -7800,24 +7494,6 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 92.71 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 92.71 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "Y1101CT-ND"
 			(at 92.71 127 90)
 			(effects
 				(font
@@ -8084,24 +7760,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 45.72 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 45.72 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "58206d67-b41e-4fe7-86df-7a75bbdb4ec5")
 		)
@@ -8317,24 +7975,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 45.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 45.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3e6ef6a6-61d2-4d02-8f28-31d66cdf53ed")
 		)
@@ -8412,24 +8052,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 45.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 45.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
 			(at 45.72 60.96 0)
 			(effects
 				(font
@@ -8523,24 +8145,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 45.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 45.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e1973e49-8de6-4274-9364-9d84c604d004")
 		)
@@ -8618,24 +8222,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 45.72 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 45.72 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
 			(at 45.72 124.46 0)
 			(effects
 				(font
@@ -8729,24 +8315,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 45.72 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
-			(at 45.72 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2ae1a7e2-6536-45f7-b3ce-b10d5e8466c1")
 		)
@@ -8824,24 +8392,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 45.72 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 45.72 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM10617-ND"
 			(at 45.72 72.39 0)
 			(effects
 				(font

@@ -2706,24 +2706,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 195.58 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "13-RC0603FR-134K75LCT-ND"
-			(at 195.58 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "facd7633-ed89-4fc3-8dc9-36698e3efeba")
 		)
@@ -2868,24 +2850,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 120.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 120.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-13248-1-ND"
 			(at 120.65 102.87 0)
 			(effects
 				(font
@@ -3047,24 +3011,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 55.88 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-14514-1-ND"
-			(at 55.88 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f7383d22-f7f0-4923-8621-f7c4e3695fc7")
 		)
@@ -3144,24 +3090,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
-			(at 100.33 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 100.33 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "445-174557-1-ND"
 			(at 100.33 120.65 0)
 			(effects
 				(font
@@ -3371,24 +3299,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 251.46 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
-			(at 251.46 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4f89825f-83ee-4297-a733-63600c3a21fb")
 		)
@@ -3524,24 +3434,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 251.46 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
-			(at 251.46 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3b5e36ba-b96c-4558-98f6-e8605a69721e")
 		)
@@ -3602,24 +3494,6 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 251.46 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
-			(at 251.46 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,24 +3577,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 123.19 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 123.19 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-13248-1-ND"
 			(at 123.19 63.5 0)
 			(effects
 				(font
@@ -3882,24 +3738,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 100.33 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-7203-1-ND"
-			(at 100.33 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0d33b31d-8be4-4ca8-be55-5cf953371c98")
 		)
@@ -3979,24 +3817,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 179.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 179.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-13248-1-ND"
 			(at 179.07 72.39 0)
 			(effects
 				(font
@@ -4092,24 +3912,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-13248-1-ND"
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "037d3c81-a921-4ecf-a636-394ee148fb5c")
 		)
@@ -4173,24 +3975,6 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 251.46 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
-			(at 251.46 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,24 +4056,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-11.5KHRCT-ND"
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -4385,24 +4151,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 133.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-14514-1-ND"
-			(at 133.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7c789edb-606b-476c-922a-5e07ee46d399")
 		)
@@ -4482,24 +4230,6 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "296-TPS7B92050DBVRCT-ND"
 			(at 78.74 60.96 0)
 			(effects
 				(font
@@ -4596,24 +4326,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 168.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 168.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-14514-1-ND"
 			(at 168.91 72.39 0)
 			(effects
 				(font
@@ -4837,24 +4549,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 85.09 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-3.65KHRCT-ND"
-			(at 85.09 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "65a7f338-ffd6-482e-9e9e-7d37b7025d1f")
 		)
@@ -4998,24 +4692,6 @@
 		)
 		(property "Manufacturer" "Yageo"
 			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 85.09 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-3.65KHRCT-ND"
-			(at 85.09 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,24 +4916,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 100.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "445-174557-1-ND"
-			(at 100.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "60206263-863c-44d3-81e7-39e2e0bced1f")
 		)
@@ -5321,24 +4979,6 @@
 		)
 		(property "Description" "test point"
 			(at 251.46 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 251.46 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
-			(at 251.46 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,24 +5201,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "296-38482-1-ND"
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "ff1aa161-62b5-4940-ac02-aaf6f7c3ca8c")
 		)
@@ -5709,24 +5331,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 91.44 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-11.5KHRCT-ND"
-			(at 91.44 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c142e128-f26e-492b-bbb9-18ef227e9a7f")
 		)
@@ -5805,24 +5409,6 @@
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
 			(at 111.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 111.76 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "P0.0ACT-ND"
-			(at 111.76 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)

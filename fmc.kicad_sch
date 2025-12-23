@@ -18952,24 +18952,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 245.11 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
-			(at 245.11 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "C1"
 			(uuid "426e2dcc-0f14-4255-9a98-ed7cf4c82d48")
 		)
@@ -20316,24 +20298,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 74.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-10749-1-ND"
-			(at 74.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "92b85c82-b4e5-4a0c-b35f-e226f07b9189")
 		)
@@ -20414,24 +20378,6 @@
 			)
 		)
 		(property "Manufacturer" "Rohm Semiconductor"
-			(at 398.78 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 398.78 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "RHM1.00KADCT-ND"
 			(at 398.78 177.8 0)
 			(effects
 				(font
@@ -20596,24 +20542,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 39.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5000-ND"
-			(at 39.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b003984c-d31b-429d-b0a1-880ae94bb68c")
 		)
@@ -20689,24 +20617,6 @@
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
 			(at 76.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 76.2 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "P0.0GCT-ND"
-			(at 76.2 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20992,24 +20902,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 289.56 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 289.56 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
 			(at 289.56 128.27 0)
 			(effects
 				(font
@@ -22301,24 +22193,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 356.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
-			(at 356.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "C1"
 			(uuid "426e2dcc-0f14-4255-9a98-ed7cf4c82d4a")
 		)
@@ -23594,24 +23468,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 224.79 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 224.79 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
 			(at 224.79 127 0)
 			(effects
 				(font
@@ -24902,24 +24758,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 148.59 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
-			(at 148.59 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "C1"
 			(uuid "426e2dcc-0f14-4255-9a98-ed7cf4c82d4c")
 		)
@@ -26185,24 +26023,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 66.04 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
-			(at 66.04 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3354e3fd-66a6-49fb-a17d-91b01ed7dcce")
 		)
@@ -26281,24 +26101,6 @@
 		)
 		(property "Manufacturer" "Kingbright"
 			(at 340.36 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 340.36 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "754-1116-1-ND"
-			(at 340.36 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26591,24 +26393,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 39.37 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5000-ND"
-			(at 39.37 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e681caae-08f3-48c2-bb6d-9a75a530ea70")
 		)
@@ -26687,24 +26471,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 220.98 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 220.98 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
 			(at 220.98 242.57 0)
 			(effects
 				(font
@@ -28060,24 +27826,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 340.36 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "RHM1.00KADCT-ND"
-			(at 340.36 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "be6e9285-451b-4750-90cd-83e954f9d353")
 		)
@@ -28223,24 +27971,6 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 39.37 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 39.37 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5001-ND"
 			(at 39.37 160.02 0)
 			(effects
 				(font
@@ -28654,24 +28384,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 300.99 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 300.99 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
 			(at 300.99 243.84 0)
 			(effects
 				(font
@@ -30150,24 +29862,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 66.04 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
-			(at 66.04 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f6c0a3e8-9f29-4f30-b2ca-7dfc30485086")
 		)
@@ -30246,24 +29940,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 137.16 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 137.16 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
 			(at 137.16 242.57 0)
 			(effects
 				(font
@@ -31537,24 +31213,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 66.04 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
-			(at 66.04 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7905f35d-9250-4070-b9f1-966558f4e952")
 		)
@@ -31763,24 +31421,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
 			(at 274.32 243.84 0)
 			(effects
 				(font
@@ -33135,24 +32775,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 39.37 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "490-10749-1-ND"
-			(at 39.37 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c81b5818-d7e9-45dc-ac18-4ea3657b5bae")
 		)
@@ -33306,24 +32928,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 374.65 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "FDN335NCT-ND"
-			(at 374.65 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f294def2-ecf0-4636-8cce-bd4da9f386db")
 		)
@@ -33415,24 +33019,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 377.19 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "754-1116-1-ND"
-			(at 377.19 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1219bc95-2713-44cf-9d21-99bfd26c6430")
 		)
@@ -33514,24 +33100,6 @@
 		)
 		(property "Manufacturer" "Kingbright"
 			(at 398.78 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 398.78 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "754-1116-1-ND"
-			(at 398.78 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33692,24 +33260,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 377.19 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "RHM1.00KADCT-ND"
-			(at 377.19 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6192bd08-2271-470d-9f60-f9bd5a1e77bc")
 		)
@@ -33791,24 +33341,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 191.77 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 191.77 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "SAM8730-ND"
 			(at 191.77 242.57 0)
 			(effects
 				(font
@@ -35090,24 +34622,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 66.04 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
-			(at 66.04 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b9d23f78-4f26-47a6-8700-f806d3c046ad")
 		)
@@ -35255,24 +34769,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 39.37 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "P0.0GCT-ND"
-			(at 39.37 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3da097b7-b5d3-4b5d-bdae-32fcd6781a02")
 		)
@@ -35353,24 +34849,6 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 337.82 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 337.82 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "FDN335NCT-ND"
 			(at 337.82 198.12 0)
 			(effects
 				(font
@@ -35462,24 +34940,6 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 39.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 39.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5000-ND"
 			(at 39.37 185.42 0)
 			(effects
 				(font
@@ -35619,24 +35079,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 30.48 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 30.48 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" ""
 			(at 30.48 201.93 0)
 			(effects
 				(font

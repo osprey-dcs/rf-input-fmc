@@ -28,8 +28,6 @@ outputs:
         - Value
         - Manufacturer
         - MPN
-        - Supplier
-        - Supplier Part Number
         - Footprint
         - Description
         - Datasheet

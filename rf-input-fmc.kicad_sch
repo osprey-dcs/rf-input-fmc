@@ -768,24 +768,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 49.53 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "ARFX1231-ND"
-			(at 49.53 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9da1010a-5e33-4aa9-bb6f-1889b4f59219")
 		)
@@ -865,24 +847,6 @@
 			)
 		)
 		(property "Manufacturer" "Amphenol RF"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "ARFX1231-ND"
 			(at 50.8 85.09 0)
 			(effects
 				(font

@@ -2765,7 +2765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
 			(at 80.01 97.79 90)
 			(effects
 				(font
@@ -2774,7 +2774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "490-3244-1-ND"
 			(at 80.01 97.79 90)
 			(effects
 				(font
@@ -3319,7 +3319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -3328,7 +3328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-100LRCT-ND"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -3428,7 +3428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
 			(at 167.64 123.19 90)
 			(effects
 				(font
@@ -3437,7 +3437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "490-3244-1-ND"
 			(at 167.64 123.19 90)
 			(effects
 				(font
@@ -3646,7 +3646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -3655,7 +3655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-49.9LRCT-ND"
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -3864,7 +3864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
 			(at 167.64 115.57 90)
 			(effects
 				(font
@@ -3873,7 +3873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "490-3244-1-ND"
 			(at 167.64 115.57 90)
 			(effects
 				(font
@@ -3971,7 +3971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
 			(at 137.16 83.82 90)
 			(effects
 				(font
@@ -3980,7 +3980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "13-RC0402FR-1324R9LCT-ND"
 			(at 137.16 83.82 90)
 			(effects
 				(font

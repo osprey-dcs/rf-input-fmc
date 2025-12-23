@@ -20596,6 +20596,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Digikey"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "36-5000-ND"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b003984c-d31b-429d-b0a1-880ae94bb68c")
 		)
@@ -26573,6 +26591,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Digikey"
+			(at 39.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "36-5000-ND"
+			(at 39.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e681caae-08f3-48c2-bb6d-9a75a530ea70")
 		)
@@ -28187,6 +28223,24 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
+			(at 39.37 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 39.37 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "36-5001-ND"
 			(at 39.37 160.02 0)
 			(effects
 				(font
@@ -35408,6 +35462,24 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "36-5000-ND"
 			(at 39.37 185.42 0)
 			(effects
 				(font

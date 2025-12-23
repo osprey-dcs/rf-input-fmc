@@ -5490,7 +5490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "311-4.42KHRCT-ND"
+		(property "Supplier Part Number" "13-RC0603FR-134K75LCT-ND"
 			(at 90.17 148.59 0)
 			(effects
 				(font
@@ -6701,7 +6701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
 			(at 175.26 144.78 0)
 			(effects
 				(font
@@ -6710,7 +6710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-49.9LRCT-ND"
 			(at 175.26 144.78 0)
 			(effects
 				(font

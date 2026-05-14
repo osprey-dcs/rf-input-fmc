@@ -1,4 +1,4 @@
-(footprint "MountingHole_2.7mm_M2.5_Pad_Marble_Slot"
+(footprint "MountingHole_3.0mm_M2.5_Pad_Marble"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_2.7mm_M2.5_Pad_Marble_Slot"
+	(property "Value" "MountingHole_3.0mm_M2.5_Pad_Marble"
 		(at 0 3.65 0)
 		(layer "F.Fab")
 		(uuid "7558b1b4-b91f-4dd1-bc32-0222822cf296")
@@ -88,7 +88,7 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 5.4 5.4)
-		(drill oval 3 2.7)
+		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)

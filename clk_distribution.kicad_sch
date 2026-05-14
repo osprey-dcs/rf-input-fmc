@@ -2597,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 17.78) (xy 245.11 17.78)
+			(xy 226.06 22.86) (xy 245.11 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2707,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 25.4) (xy 245.11 25.4)
+			(xy 226.06 20.32) (xy 245.11 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3277,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 20.32) (xy 245.11 20.32)
+			(xy 226.06 25.4) (xy 245.11 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3477,7 +3477,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 22.86) (xy 245.11 22.86)
+			(xy 226.06 17.78) (xy 245.11 17.78)
 		)
 		(stroke
 			(width 0)
@@ -3605,7 +3605,7 @@
 		)
 		(uuid "13ff6f63-b821-4aa9-ad9c-035c31216597")
 	)
-	(label "RF_CLKIN_0.N"
+	(label "RF_CLKIN_2.N"
 		(at 97.79 113.03 0)
 		(effects
 			(font
@@ -3665,8 +3665,8 @@
 		)
 		(uuid "5a18cb8d-57f9-4a04-8d65-d2e0502412e1")
 	)
-	(label "RF_CLKIN_0.N"
-		(at 226.06 20.32 0)
+	(label "RF_CLKIN_2.N"
+		(at 226.06 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3775,8 +3775,8 @@
 		)
 		(uuid "80116a60-249d-4c19-82e7-9f01568d0517")
 	)
-	(label "RF_CLKIN_0.P"
-		(at 226.06 17.78 0)
+	(label "RF_CLKIN_2.P"
+		(at 226.06 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3816,7 +3816,7 @@
 		(uuid "98e26fd8-31a7-46c8-9777-df74974fbb96")
 	)
 	(label "RF_CLKIN_1.P"
-		(at 226.06 22.86 0)
+		(at 226.06 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3935,7 +3935,7 @@
 		)
 		(uuid "d64b0202-595d-48ed-8416-8f6efb45ee9d")
 	)
-	(label "RF_CLKIN_0.P"
+	(label "RF_CLKIN_2.P"
 		(at 97.79 110.49 0)
 		(effects
 			(font
@@ -3976,7 +3976,7 @@
 		(uuid "f592a4e5-0153-44b9-8334-f38f96dbaf61")
 	)
 	(label "RF_CLKIN_1.N"
-		(at 226.06 25.4 0)
+		(at 226.06 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4049,7 +4049,7 @@
 		)
 		(uuid "8932d46a-ec8e-49c0-818d-7ca05b70fe48")
 	)
-	(hierarchical_label "RF_CLKIN_0{DP}"
+	(hierarchical_label "RF_CLKIN_2{DP}"
 		(shape input)
 		(at 86.36 113.03 180)
 		(effects
@@ -4127,7 +4127,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 245.11 25.4 0)
+		(at 245.11 20.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4137,7 +4137,7 @@
 		)
 		(uuid "15203c19-0407-49e1-b323-9f0947d14e1f")
 		(property "Netclass" "Controlled"
-			(at 246.3165 24.13 0)
+			(at 246.3165 19.05 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4146,7 +4146,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 10.16 -20.32 0)
+			(at 10.16 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4220,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 245.11 22.86 0)
+		(at 245.11 17.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4230,7 +4230,7 @@
 		)
 		(uuid "56255b2c-56cd-49e0-b44f-a9851595ccba")
 		(property "Netclass" "Controlled"
-			(at 246.3165 21.59 0)
+			(at 246.3165 16.51 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4239,7 +4239,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 10.16 -22.86 0)
+			(at 10.16 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4251,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 245.11 20.32 0)
+		(at 245.11 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4261,7 +4261,7 @@
 		)
 		(uuid "599b2558-c19b-4fca-9c8e-b2e6fa5a25c7")
 		(property "Netclass" "Controlled"
-			(at 246.3165 19.05 0)
+			(at 246.3165 24.13 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4270,7 +4270,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 10.16 -25.4 0)
+			(at 10.16 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4375,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 245.11 17.78 0)
+		(at 245.11 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4385,7 +4385,7 @@
 		)
 		(uuid "9beb1fef-1b2f-4a2b-b3e7-3592c64716f9")
 		(property "Netclass" "Controlled"
-			(at 246.3165 16.51 0)
+			(at 246.3165 21.59 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4394,7 +4394,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 10.16 -27.94 0)
+			(at 10.16 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

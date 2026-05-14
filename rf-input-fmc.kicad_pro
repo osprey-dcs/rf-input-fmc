@@ -549,6 +549,12 @@
       "/CLK_Distribution/RF_CLKIN_1.P": [
         "Controlled"
       ],
+      "/CLK_Distribution/RF_CLKIN_2.N": [
+        "Controlled"
+      ],
+      "/CLK_Distribution/RF_CLKIN_2.P": [
+        "Controlled"
+      ],
       "/CLK_Distribution/RF_CLKOUT_0.N": [
         "Controlled"
       ],
@@ -778,11 +784,11 @@
     ],
     [
       "556a51f6-8ee2-4c5a-bdc7-bf826ed661b3",
-      "RF_Input_1"
+      "RF_Input_2"
     ],
     [
       "156192cf-3256-41cf-9cf3-c1bc456cdae1",
-      "RF_Input_2"
+      "RF_Input_1"
     ],
     [
       "e5510460-d5a9-4d09-b8a1-20d3075b72db",

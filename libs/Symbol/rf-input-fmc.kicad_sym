@@ -20449,80 +20449,8 @@
 					)
 				)
 			)
-			(pin passive inverted
-				(at -17.78 -20.32 0)
-				(length 5.08)
-				(name "1~{OE}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive inverted
-				(at -17.78 -22.86 0)
-				(length 5.08)
-				(name "2~{OE}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive inverted
-				(at -17.78 -25.4 0)
-				(length 5.08)
-				(name "3~{OE}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive inverted
-				(at -17.78 -27.94 0)
-				(length 5.08)
-				(name "4~{OE}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -5.08 -34.29 90)
+				(at -8.89 -34.29 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -20532,6 +20460,42 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 -34.29 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -34.29 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20558,7 +20522,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -34.29 90)
+				(at -1.27 -34.29 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -20567,7 +20531,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20594,7 +20558,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -34.29 90)
+				(at 1.27 -34.29 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -20603,7 +20567,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20630,7 +20594,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -34.29 90)
+				(at 3.81 -34.29 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -20639,7 +20603,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20666,43 +20630,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -34.29 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -34.29 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -34.29 90)
+				(at 6.35 -34.29 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -20720,7 +20648,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -34.29 90)
+				(at 8.89 -34.29 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -21018,6 +20946,78 @@
 					)
 				)
 				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 20.32 -19.05 180)
+				(length 5.08)
+				(name "1~{OE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 20.32 -21.59 180)
+				(length 5.08)
+				(name "2~{OE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 20.32 -24.13 180)
+				(length 5.08)
+				(name "3~{OE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 20.32 -26.67 180)
+				(length 5.08)
+				(name "4~{OE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -26490,7 +26490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_Pad_3.5mm"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_3.8mm_Pad_3.3mm_UniversalMarbleSlot"
 			(at 67.31 223.52 0)
 			(effects
 				(font
@@ -30649,7 +30649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_M2.5_Pad_Marble_Slot"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_M2.5_Pad_3.3mm_UniversalMarbleSlot"
 			(at 67.31 212.09 0)
 			(effects
 				(font
@@ -32275,7 +32275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_Pad_3.5mm"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_3.8mm_Pad_3.3mm_UniversalMarbleSlot"
 			(at 67.31 234.95 0)
 			(effects
 				(font
@@ -35828,7 +35828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_M2.5_Pad_Marble"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_M2.5_Pad_3.3mm_UniversalMarbleSlot"
 			(at 67.31 200.66 0)
 			(effects
 				(font

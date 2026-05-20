@@ -491,7 +491,7 @@
     ]
   },
   "meta": {
-    "filename": "rf-input-fmc.kicad_pro",
+    "filename": "clk-input-fmc.kicad_pro",
     "version": 3
   },
   "net_settings": {

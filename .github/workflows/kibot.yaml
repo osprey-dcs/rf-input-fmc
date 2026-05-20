@@ -7,7 +7,7 @@ jobs:
     name: "ERC/DRC"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - uses: INTI-CMNB/KiBot@v2_k9
       with:
         dir: output
@@ -17,7 +17,7 @@ jobs:
     name: Fab Outputs
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - uses: INTI-CMNB/KiBot@v2_k9
       with:
         dir: output
@@ -51,7 +51,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.base_ref }}
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         fetch-depth: 0
     - name: Tag PR base

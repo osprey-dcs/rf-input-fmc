@@ -8,9 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "RF Input FMC Board")
-		(date "2025-12-20")
-		(rev "0.3")
+		(title "Clock Input FMC Board")
+		(date "2026-05-20")
+		(rev "1.0")
 		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)
@@ -49237,7 +49237,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Clock Input FMC\nOsprey DCS 2026\n"
+	(gr_text "Clock Input FMC 1.0\nOsprey DCS 2026\n"
 		(at 186.03 89.625 90)
 		(layer "F.SilkS")
 		(uuid "3999b857-fa2e-4f1e-8d02-fb0aeaf903d1")
@@ -49315,7 +49315,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Clock Input FMC\nOsprey DCS 2026\n"
+	(gr_text "Clock Input FMC 1.0\nOsprey DCS 2026\n"
 		(at 186.03 71.845 90)
 		(layer "B.SilkS")
 		(uuid "99030c44-0a55-4e1f-bdcd-c3a4c9611558")
